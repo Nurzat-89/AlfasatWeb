@@ -1,0 +1,951 @@
+.streaming-media {
+	background-image: url(https://xvp.akamaized.net/assets/sprites/streaming_media-b0b9e0502dd62cd0b316ef900e7b316f.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 293px 247px;
+	-moz-background-size: 293px 247px;
+	background-size: 293px 247px
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+	.streaming-media {
+		background-image: url(https://xvp.akamaized.net/assets/sprites/streaming_media@2x-3d7505a20eb8d4125872411b4e8a0803.png)
+	}
+}
+
+.streaming-media-bbc-stacked {
+	background-position: -154px 0px;
+	width: 75px;
+	height: 50px
+}
+
+.streaming-media-beinsports {
+	background-position: 0px -204px;
+	width: 100px;
+	height: 19px
+}
+
+.streaming-media-canal {
+	background-position: -100px -154px;
+	width: 100px;
+	height: 26px
+}
+
+.streaming-media-espn {
+	background-position: -140px -223px;
+	width: 70px;
+	height: 18px
+}
+
+.streaming-media-exodus {
+	background-position: -100px -204px;
+	width: 74px;
+	height: 18px
+}
+
+.streaming-media-france2 {
+	background-position: -100px -181px;
+	width: 100px;
+	height: 20px
+}
+
+.streaming-media-hbo {
+	background-position: -229px 0px;
+	width: 64px;
+	height: 28px
+}
+
+.streaming-media-hulu {
+	background-position: 0px -223px;
+	width: 70px;
+	height: 24px
+}
+
+.streaming-media-magic-dragon {
+	background-position: 0px 0px;
+	width: 79px;
+	height: 79px
+}
+
+.streaming-media-magicality {
+	background-position: -79px 0px;
+	width: 75px;
+	height: 71px
+}
+
+.streaming-media-netflix {
+	background-position: 0px -154px;
+	width: 100px;
+	height: 27px
+}
+
+.streaming-media-prime-video-stacked {
+	background-position: -154px -50px;
+	width: 50px;
+	height: 50px
+}
+
+.streaming-media-rmcsport {
+	background-position: 0px -79px;
+	width: 100px;
+	height: 38px
+}
+
+.streaming-media-spotify {
+	background-position: -100px -117px;
+	width: 100px;
+	height: 30px
+}
+
+.streaming-media-tf1 {
+	background-position: 0px -117px;
+	width: 100px;
+	height: 37px
+}
+
+.streaming-media-vudu {
+	background-position: -70px -223px;
+	width: 70px;
+	height: 20px
+}
+
+.streaming-media-youtube {
+	background-position: 0px -181px;
+	width: 100px;
+	height: 23px
+}
+
+.media-outlets {
+	background-image: url(https://xvp.akamaized.net/assets/sprites/media-outlets-ff258566cc135d7aefd28f22f7e1cb9e.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 293px 210px;
+	-moz-background-size: 293px 210px;
+	background-size: 293px 210px
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+	.media-outlets {
+		background-image: url(https://xvp.akamaized.net/assets/sprites/media-outlets@2x-8f7ca80f50c012fd69db278359971bdd.png)
+	}
+}
+
+.media-outlets-bbc {
+	background-position: 0px -80px;
+	width: 142px;
+	height: 40px
+}
+
+.media-outlets-cnet {
+	background-position: 0px -170px;
+	width: 41px;
+	height: 40px
+}
+
+.media-outlets-forbes {
+	background-position: 0px -40px;
+	width: 154px;
+	height: 40px
+}
+
+.media-outlets-huffpost {
+	background-position: 0px -148px;
+	width: 186px;
+	height: 22px
+}
+
+.media-outlets-pcworld {
+	background-position: -154px -40px;
+	width: 123px;
+	height: 27px
+}
+
+.media-outlets-techcrunch {
+	background-position: -213px -80px;
+	width: 59px;
+	height: 40px
+}
+
+.media-outlets-techradar {
+	background-position: 0px -120px;
+	width: 165px;
+	height: 28px
+}
+
+.media-outlets-the-new-york-times {
+	background-position: 0px 0px;
+	width: 293px;
+	height: 40px
+}
+
+.media-outlets-wsj {
+	background-position: -142px -80px;
+	width: 71px;
+	height: 40px
+}
+
+.streaming-media {
+	background-image: url(https://xvp.akamaized.net/assets/sprites/streaming_media-b0b9e0502dd62cd0b316ef900e7b316f.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 293px 247px;
+	-moz-background-size: 293px 247px;
+	background-size: 293px 247px
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+	.streaming-media {
+		background-image: url(https://xvp.akamaized.net/assets/sprites/streaming_media@2x-3d7505a20eb8d4125872411b4e8a0803.png)
+	}
+}
+
+.streaming-media-bbc-stacked {
+	background-position: -154px 0px;
+	width: 75px;
+	height: 50px
+}
+
+.streaming-media-beinsports {
+	background-position: 0px -204px;
+	width: 100px;
+	height: 19px
+}
+
+.streaming-media-canal {
+	background-position: -100px -154px;
+	width: 100px;
+	height: 26px
+}
+
+.streaming-media-espn {
+	background-position: -140px -223px;
+	width: 70px;
+	height: 18px
+}
+
+.streaming-media-exodus {
+	background-position: -100px -204px;
+	width: 74px;
+	height: 18px
+}
+
+.streaming-media-france2 {
+	background-position: -100px -181px;
+	width: 100px;
+	height: 20px
+}
+
+.streaming-media-hbo {
+	background-position: -229px 0px;
+	width: 64px;
+	height: 28px
+}
+
+.streaming-media-hulu {
+	background-position: 0px -223px;
+	width: 70px;
+	height: 24px
+}
+
+.streaming-media-magic-dragon {
+	background-position: 0px 0px;
+	width: 79px;
+	height: 79px
+}
+
+.streaming-media-magicality {
+	background-position: -79px 0px;
+	width: 75px;
+	height: 71px
+}
+
+.streaming-media-netflix {
+	background-position: 0px -154px;
+	width: 100px;
+	height: 27px
+}
+
+.streaming-media-prime-video-stacked {
+	background-position: -154px -50px;
+	width: 50px;
+	height: 50px
+}
+
+.streaming-media-rmcsport {
+	background-position: 0px -79px;
+	width: 100px;
+	height: 38px
+}
+
+.streaming-media-spotify {
+	background-position: -100px -117px;
+	width: 100px;
+	height: 30px
+}
+
+.streaming-media-tf1 {
+	background-position: 0px -117px;
+	width: 100px;
+	height: 37px
+}
+
+.streaming-media-vudu {
+	background-position: -70px -223px;
+	width: 70px;
+	height: 20px
+}
+
+.streaming-media-youtube {
+	background-position: 0px -181px;
+	width: 100px;
+	height: 23px
+}
+
+.media-outlets {
+	background-image: url(https://xvp.akamaized.net/assets/sprites/media-outlets-ff258566cc135d7aefd28f22f7e1cb9e.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 293px 210px;
+	-moz-background-size: 293px 210px;
+	background-size: 293px 210px
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+	.media-outlets {
+		background-image: url(https://xvp.akamaized.net/assets/sprites/media-outlets@2x-8f7ca80f50c012fd69db278359971bdd.png)
+	}
+}
+
+.media-outlets-bbc {
+	background-position: 0px -80px;
+	width: 142px;
+	height: 40px
+}
+
+.media-outlets-cnet {
+	background-position: 0px -170px;
+	width: 41px;
+	height: 40px
+}
+
+.media-outlets-forbes {
+	background-position: 0px -40px;
+	width: 154px;
+	height: 40px
+}
+
+.media-outlets-huffpost {
+	background-position: 0px -148px;
+	width: 186px;
+	height: 22px
+}
+
+.media-outlets-pcworld {
+	background-position: -154px -40px;
+	width: 123px;
+	height: 27px
+}
+
+.media-outlets-techcrunch {
+	background-position: -213px -80px;
+	width: 59px;
+	height: 40px
+}
+
+.media-outlets-techradar {
+	background-position: 0px -120px;
+	width: 165px;
+	height: 28px
+}
+
+.media-outlets-the-new-york-times {
+	background-position: 0px 0px;
+	width: 293px;
+	height: 40px
+}
+
+.media-outlets-wsj {
+	background-position: -142px -80px;
+	width: 71px;
+	height: 40px
+}
+
+@-webkit-keyframes Aurora {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Aurora {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-webkit-keyframes Stars {
+	from {
+		-webkit-transform: translateX(0px)
+	}
+	to {
+		-webkit-transform: translateX(-100%)
+	}
+}
+
+@keyframes Stars {
+	from {
+		transform: translateX(0px)
+	}
+	to {
+		transform: translateX(-100%)
+	}
+}
+
+.xvpn_lp .clouds,
+.xvpn_lp .stars,
+.xvpn_lp .aurora,
+.xvpn_lp .galaxy,
+.xvpn_lp .stars::after,
+.xvpn_lp .stars::before {
+	bottom: 0;
+	display: block;
+	height: calc(100vh - 150px);
+	left: 0;
+	min-height: 650px;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%
+}
+
+@media screen and (max-width: 767px) {
+	.xvpn_lp .clouds,
+	.xvpn_lp .stars,
+	.xvpn_lp .aurora,
+	.xvpn_lp .galaxy,
+	.xvpn_lp .stars::after,
+	.xvpn_lp .stars::before {
+		min-height: 500px
+	}
+}
+
+@media screen and (min-width: 1600px) {
+	.xvpn_lp .clouds,
+	.xvpn_lp .stars,
+	.xvpn_lp .aurora,
+	.xvpn_lp .galaxy,
+	.xvpn_lp .stars::after,
+	.xvpn_lp .stars::before {
+		min-height: 720px
+	}
+}
+
+@media screen and (min-width: 1800px) {
+	.xvpn_lp .clouds,
+	.xvpn_lp .stars,
+	.xvpn_lp .aurora,
+	.xvpn_lp .galaxy,
+	.xvpn_lp .stars::after,
+	.xvpn_lp .stars::before {
+		min-height: 760px
+	}
+}
+
+@media screen and (min-width: 2160px) {
+	.xvpn_lp .clouds,
+	.xvpn_lp .stars,
+	.xvpn_lp .aurora,
+	.xvpn_lp .galaxy,
+	.xvpn_lp .stars::after,
+	.xvpn_lp .stars::before {
+		min-height: 880px
+	}
+}
+
+@media screen and (min-width: 2880px) {
+	.xvpn_lp .clouds,
+	.xvpn_lp .stars,
+	.xvpn_lp .aurora,
+	.xvpn_lp .galaxy,
+	.xvpn_lp .stars::after,
+	.xvpn_lp .stars::before {
+		min-height: 1000px
+	}
+}
+
+.xvpn_lp .aurora {
+	background: linear-gradient(-45deg, #ee7752, #d5b723, #e73c7e, #23a6d5, #23d5ab);
+	-webkit-animation: Aurora 20s ease infinite;
+	animation: Aurora 20s ease infinite;
+	background-size: 160% 160%;
+	opacity: 0.6;
+	z-index: 2
+}
+
+.xvpn_lp .stars {
+	display: none
+}
+
+.xvpn_lp .stars::after {
+	background-image: url(https://xvp.akamaized.net/assets/home/top_lp/stars-24c88c96f880fcf5d8d3afce52be710e.png), url(https://xvp.akamaized.net/assets/home/top_lp/stars-24c88c96f880fcf5d8d3afce52be710e.png), url(https://xvp.akamaized.net/assets/home/top_lp/stars-24c88c96f880fcf5d8d3afce52be710e.png);
+	background-position: center, top right, bottom left;
+	-webkit-animation: Stars 180s linear infinite;
+	animation: Stars 180s linear infinite;
+	content: '';
+	min-height: 650px;
+	z-index: 3
+}
+
+@media screen and (min-width: 1600px) {
+	.xvpn_lp .stars::after {
+		min-height: 720px
+	}
+}
+
+@media screen and (min-width: 1800px) {
+	.xvpn_lp .stars::after {
+		min-height: 760px
+	}
+}
+
+@media screen and (min-width: 2160px) {
+	.xvpn_lp .stars::after {
+		min-height: 880px
+	}
+}
+
+@media screen and (min-width: 2880px) {
+	.xvpn_lp .stars::after {
+		min-height: 1000px
+	}
+}
+
+.xvpn_lp .stars::before {
+	background-image: url(https://xvp.akamaized.net/assets/home/top_lp/stars-24c88c96f880fcf5d8d3afce52be710e.png), url(https://xvp.akamaized.net/assets/home/top_lp/stars-24c88c96f880fcf5d8d3afce52be710e.png), url(https://xvp.akamaized.net/assets/home/top_lp/stars-24c88c96f880fcf5d8d3afce52be710e.png), url(https://xvp.akamaized.net/assets/home/top_lp/stars-24c88c96f880fcf5d8d3afce52be710e.png);
+	background-position: center, top right, bottom left, 50% 50%;
+	-webkit-animation: Stars 180s linear infinite;
+	animation: Stars 180s linear infinite;
+	content: '';
+	left: 100%;
+	min-height: 650px;
+	z-index: 3
+}
+
+@media screen and (min-width: 1600px) {
+	.xvpn_lp .stars::before {
+		min-height: 720px
+	}
+}
+
+@media screen and (min-width: 1800px) {
+	.xvpn_lp .stars::before {
+		min-height: 760px
+	}
+}
+
+@media screen and (min-width: 2160px) {
+	.xvpn_lp .stars::before {
+		min-height: 880px
+	}
+}
+
+@media screen and (min-width: 2880px) {
+	.xvpn_lp .stars::before {
+		min-height: 1000px
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.xvpn_lp .stars::before {
+		min-height: 500px
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.xvpn_lp .stars::after,
+	.xvpn_lp .stars::before {
+		min-height: 500px;
+		-webkit-animation: Stars 60s linear infinite;
+		animation: Stars 60s linear infinite
+	}
+}
+
+.xvpn_lp .galaxy {
+	display: none;
+	background-image: url(https://xvp.akamaized.net/assets/home/top_lp/galaxy-abcd2329def19d054d4ce1cb4ccc8133.png);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	z-index: 5
+}
+
+@media screen and (max-width: 767px) {
+	.xvpn_lp .galaxy {
+		background-size: 220%
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.xvpn_lp .galaxy {
+		background-size: 150%
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.xvpn_lp .galaxy {
+		background-size: 120%
+	}
+}
+
+@-webkit-keyframes StarFalling {
+	from {
+		right: -100px;
+		top: -100px;
+		opacity: 0.8
+	}
+	to {
+		right: 50vw;
+		top: 40vh;
+		opacity: .5
+	}
+}
+
+@keyframes StarFalling {
+	from {
+		right: -100px;
+		top: -100px;
+		opacity: 0.8
+	}
+	to {
+		right: 50vw;
+		top: 40vh;
+		opacity: .5
+	}
+}
+
+@media screen and (max-width: 767px) {
+	@-webkit-keyframes StarFalling {
+		from {
+			right: -100px;
+			top: -100px;
+			opacity: 1
+		}
+		to {
+			right: calc(110vw + 100px);
+			top: 60vh
+		}
+	}
+	@keyframes StarFalling {
+		from {
+			right: -100px;
+			top: -100px;
+			opacity: 1
+		}
+		to {
+			right: calc(110vw + 100px);
+			top: 60vh
+		}
+	}
+}
+
+.xvpn_lp .jumbotron .shooting-star {
+	bottom: 0;
+	display: block;
+	height: calc(100vh - 150px);
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 2
+}
+
+.xvpn_lp .jumbotron .shooting-star.from-left {
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1)
+}
+
+.xvpn_lp .jumbotron .shooting-star .stars-group {
+	-webkit-animation-duration: 0.9s;
+	animation-duration: 0.9s;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+	-webkit-animation-name: StarFalling;
+	animation-name: StarFalling;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	background-color: white;
+	height: 2px;
+	border-radius: 2px;
+	position: absolute;
+	right: 0;
+	top: 50px;
+	width: 2px
+}
+
+.xvpn_lp .jumbotron .shooting-star .stars-group::before {
+	background: linear-gradient(to left, rgba(255, 255, 255, 0.1) 0%, #fff 100%);
+	content: "";
+	display: block;
+	height: 2px;
+	left: -8px;
+	position: absolute;
+	top: -29px;
+	-webkit-transform: rotate(-35deg);
+	transform: rotate(-35deg);
+	width: 100px
+}
+
+.xvpn_lp .jumbotron .shooting-star .star-1 {
+	-webkit-animation-delay: 25s;
+	animation-delay: 25s;
+	right: -120px;
+	-webkit-transform: translate(10vh, 20px);
+	transform: translate(10vh, 20px)
+}
+
+.xvpn_lp .jumbotron .shooting-star .star-2 {
+	-webkit-animation-delay: 10s;
+	animation-delay: 10s;
+	-webkit-transform: translate(10vh, -10vh);
+	transform: translate(10vh, -10vh)
+}
+
+.xvpn_lp .jumbotron .shooting-star .star-3 {
+	-webkit-animation-delay: 3s;
+	animation-delay: 3s;
+	-webkit-transform: translate(30vh, 0vh);
+	transform: translate(30vh, 0vh)
+}
+
+.xvpn_lp .jumbotron .shooting-star .star-4 {
+	-webkit-animation-delay: 16s;
+	animation-delay: 16s;
+	-webkit-transform: translate(0vh, 0vh);
+	transform: translate(0vh, 0vh)
+}
+
+@media (min-width: 1400px) {
+	.xvpn_lp.universe-theme .container.wide {
+		width: 1200px
+	}
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+	.xvpn_lp.universe-theme .container.wide {
+		margin-top: 10%
+	}
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) and (min-height: 750px) {
+	.xvpn_lp.universe-theme .container.wide {
+		margin-top: 20%
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) and (min-height: 900px) {
+	.xvpn_lp.universe-theme .container.wide {
+		margin-top: 15%
+	}
+}
+
+
+.xvpn_lp.universe-theme .jumbotron {
+	background: radial-gradient(ellipse at center, #465066 0%, #151f29 100%);
+	height: calc(100vh - 150px);
+	min-height: 650px;
+	padding-bottom: 0;
+	padding-top: 10px;
+	position: relative
+}
+
+@media screen and (min-width: 992px) and (min-height: 500px) {
+	.xvpn_lp.universe-theme .jumbotron {
+		padding-top: 4vh
+	}
+}
+
+@media screen and (min-width: 2000px) {
+	.xvpn_lp.universe-theme .jumbotron {
+		padding-top: 20vh
+	}
+}
+
+@media screen and (min-width: 1600px) {
+	.xvpn_lp.universe-theme .jumbotron {
+		min-height: 720px
+	}
+}
+
+@media screen and (min-width: 1800px) {
+	.xvpn_lp.universe-theme .jumbotron {
+		min-height: 760px
+	}
+}
+
+@media screen and (min-width: 2160px) {
+	.xvpn_lp.universe-theme .jumbotron {
+		min-height: 880px
+	}
+}
+
+@media screen and (min-width: 2880px) {
+	.xvpn_lp.universe-theme .jumbotron {
+		min-height: 1000px
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.xvpn_lp.universe-theme .jumbotron {
+		min-height: 500px
+	}
+}
+
+.xvpn_lp.universe-theme .jumbotron::after {
+	background-image: url(https://xvp.akamaized.net/assets/home/top_lp/silhouette-ed233e3b8109df8a9705f21c12f9b11b.png);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	bottom: 0;
+	content: '';
+	display: block;
+	height: calc(100vh - 150px);
+	left: 0;
+	min-height: 650px;
+	position: absolute;
+	width: 100%;
+	z-index: 5
+}
+
+@media screen and (max-width: 767px) {
+	.xvpn_lp.universe-theme .jumbotron::after {
+		background-size: 220%
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.xvpn_lp.universe-theme .jumbotron::after {
+		background-size: 150%
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.xvpn_lp.universe-theme .jumbotron::after {
+		background-size: 120%
+	}
+}
+
+@media screen and (min-width: 1600px) {
+	.xvpn_lp.universe-theme .jumbotron::after {
+		min-height: 720px
+	}
+}
+
+@media screen and (min-width: 1800px) {
+	.xvpn_lp.universe-theme .jumbotron::after {
+		min-height: 760px
+	}
+}
+
+@media screen and (min-width: 2160px) {
+	.xvpn_lp.universe-theme .jumbotron::after {
+		min-height: 880px
+	}
+}
+
+@media screen and (min-width: 2880px) {
+	.xvpn_lp.universe-theme .jumbotron::after {
+		min-height: 1000px
+	}
+}
+
+.xvpn_lp.universe-theme .jumbotron::before {
+	background-image: radial-gradient(ellipse at center, rgba(6, 10, 16, 0.1) 0%, rgba(0, 0, 0, 0.7) 100%);
+	content: '';
+	height: calc(100vh - 150px);
+	left: 0;
+	min-height: 650px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 6
+}
+
+@media screen and (max-width: 767px) {
+	.xvpn_lp.universe-theme .jumbotron::before {
+		min-height: 500px
+	}
+}
+
+@media screen and (min-width: 1600px) {
+	.xvpn_lp.universe-theme .jumbotron::before {
+		min-height: 720px
+	}
+}
+
+@media screen and (min-width: 1800px) {
+	.xvpn_lp.universe-theme .jumbotron::before {
+		min-height: 760px
+	}
+}
+
+@media screen and (min-width: 2160px) {
+	.xvpn_lp.universe-theme .jumbotron::before {
+		min-height: 880px
+	}
+}
+
+@media screen and (min-width: 2880px) {
+	.xvpn_lp.universe-theme .jumbotron::before {
+		min-height: 1000px
+	}
+}
+
+.xvpn_lp.universe-theme .jumbotron .cobrand {
+	bottom: 30px;
+	opacity: 0.7;
+	position: absolute;
+	right: 30px;
+	z-index: 6
+}
+
+.xvpn_lp.universe-theme .jumbotron .cobrand img {
+	width: 150px
+}
+
+@media screen and (max-width: 767px) {
+	.xvpn_lp.universe-theme .jumbotron .cobrand {
+		bottom: 10px;
+		right: 15px
+	}
+	.xvpn_lp.universe-theme .jumbotron .cobrand img {
+		width: 120px
+	}
+}
+
+.xvpn_lp.universe-theme.thetop10sites .cobrand {
+	opacity: 1
+}
+
+.xvpn_lp.universe-theme.thetop10sites .cobrand img {
+	width: 200px
+}
+
+@media screen and (max-width: 767px) {
+	.xvpn_lp.universe-theme.thetop10sites .cobrand img {
+		width: 130px
+	}
+}
