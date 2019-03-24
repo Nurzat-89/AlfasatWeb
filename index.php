@@ -7,8 +7,7 @@
    <body>
       <div class="xvpn_lp universe-theme top-lp-v2">
          <div class="jumbotron">
-            <div class="stars" style="display: block;"></div>
-            
+            <div class="stars" style="display: block;"></div>      
             <div class="maini" id="main" style="z-index: 7;position:relative;">
                <?php include('header.php');?>	
                <div id="site_content">
