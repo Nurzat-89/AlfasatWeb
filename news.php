@@ -10,7 +10,7 @@
 	
 	
 <?php if($_GET['lang']=='en'){?> 
-	<h3>Last news</h3>
+	<h3>No last news</h3>
 	<h4>University nanosatellite successfully launched into space</h4>
 	<h5>4 December 2018</h5>
 	<p>Компания Илона Маска «SpaceX» осуществила запуск казахстанского наноспутника «Аl-Farabi-2» созданного в КазНУ им. аль-Фараби, передает МИА «КАЗИНФОРМ».<br />
