@@ -244,7 +244,7 @@
                                 <div class="card">
                                     <div class="card-header">Добро пожаловать</div>
                                     <div class="card-body">
-                                        <h5 class="card-title">Вы вошли в систему как</h5>
+                                        <h5 class="card-title">Вы вошли в систему как `+result.data.firsname +` `+result.data.lastname+`</h5>
                                         <p class="card-text"></p>
                                     </div>
                                 </div>
