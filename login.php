@@ -88,39 +88,39 @@
                 // trigger when login form is submitted
                 $(document).on('submit', '#login_form', function(){
                 
-                // get form data
-                var login_form=$(this);
-                var form_data=JSON.stringify(login_form.serializeObject());
+                    // get form data
+                    var login_form=$(this);
+                    var form_data=JSON.stringify(login_form.serializeObject());
 
-                // submit form data to api
-                $.ajax({
-                    url: "api/login.php",
-                    type : "POST",
-                    contentType : 'application/json',
-                    data : form_data,
-                    success : function(result){
-                
-                        // store jwt to cookie
-                        setCookie("jwt", result.jwt, 1);
-                
-                        // show home page & tell the user it was a successful login
-                        showHomePage();
-                        $('#response').html("<div class='alert alert-success'>Вы вошли в систему</div>");
-                
-                    },
-                    error: function(xhr, resp, text){
-                        // on error, tell the user login has failed & empty the input boxes
-                        $('#response').html("<div class='alert alert-danger'>Возникла ошибка при входе в систему. Неверный логин или пароль.</div>");
-                        login_form.find('input').val('');
-                    }
-                });
+                    // submit form data to api
+                    $.ajax({
+                        url: "api/login.php",
+                        type : "POST",
+                        contentType : 'application/json',
+                        data : form_data,
+                        success : function(result){
+                    
+                            // store jwt to cookie
+                            setCookie("jwt", result.jwt, 1);
+                    
+                            // show home page & tell the user it was a successful login
+                            showHomePage(result.data.firstname);
+                            $('#response').html("<div class='alert alert-success'>Вы вошли в систему</div>");
+                    
+                        },
+                        error: function(xhr, resp, text){
+                            // on error, tell the user login has failed & empty the input boxes
+                            $('#response').html("<div class='alert alert-danger'>Возникла ошибка при входе в систему. Неверный логин или пароль.</div>");
+                            login_form.find('input').val('');
+                        }
+                    });
 
-                return false;
+                    return false;
                 });
 
                 // show home page
                 $(document).on('click', '#home', function(){
-                    showHomePage();
+                    showHomePage(result.data.firstname);
                     clearResponse();
                 });
                 
@@ -132,50 +132,50 @@
                // trigger when 'update account' form is submitted
                 $(document).on('submit', '#update_account_form', function(){
                 
-                // handle for update_account_form
-                var update_account_form=$(this);
+                    // handle for update_account_form
+                    var update_account_form=$(this);
 
-                // validate jwt to verify access
-                var jwt = getCookie('jwt');
+                    // validate jwt to verify access
+                    var jwt = getCookie('jwt');
 
-                // get form data
-                var update_account_form_obj = update_account_form.serializeObject()
-                
-                // add jwt on the object
-                update_account_form_obj.jwt = jwt;
-                
-                // convert object to json string
-                var form_data=JSON.stringify(update_account_form_obj);
-                
-                // submit form data to api
-                $.ajax({
-                    url: "api/update_user.php",
-                    type : "POST",
-                    contentType : 'application/json',
-                    data : form_data,
-                    success : function(result) {
-                
-                        // tell the user account was updated
-                        $('#response').html("<div class='alert alert-success'>Учетная запись было обновлено</div>");
-                
-                        // store new jwt to coookie
-                        setCookie("jwt", result.jwt, 1);
-                    },
-                
-                    // show error message to user
-                    error: function(xhr, resp, text){
-                        if(xhr.responseJSON.message=="Unable to update user."){
-                            $('#response').html("<div class='alert alert-danger'>Ошибка при изменений учетной записи</div>");
-                        }
+                    // get form data
+                    var update_account_form_obj = update_account_form.serializeObject()
                     
-                        else if(xhr.responseJSON.message=="Access denied."){
-                            showLoginPage();
-                            $('#response').html("<div class='alert alert-success'>Для продолжения нужно войти в систему</div>");
+                    // add jwt on the object
+                    update_account_form_obj.jwt = jwt;
+                    
+                    // convert object to json string
+                    var form_data=JSON.stringify(update_account_form_obj);
+                    
+                    // submit form data to api
+                    $.ajax({
+                        url: "api/update_user.php",
+                        type : "POST",
+                        contentType : 'application/json',
+                        data : form_data,
+                        success : function(result) {
+                    
+                            // tell the user account was updated
+                            $('#response').html("<div class='alert alert-success'>Учетная запись было обновлено</div>");
+                    
+                            // store new jwt to coookie
+                            setCookie("jwt", result.jwt, 1);
+                        },
+                    
+                        // show error message to user
+                        error: function(xhr, resp, text){
+                            if(xhr.responseJSON.message=="Unable to update user."){
+                                $('#response').html("<div class='alert alert-danger'>Ошибка при изменений учетной записи</div>");
+                            }
+                        
+                            else if(xhr.responseJSON.message=="Access denied."){
+                                showLoginPage();
+                                $('#response').html("<div class='alert alert-success'>Для продолжения нужно войти в систему</div>");
+                            }
                         }
-                    }
-                });
+                    });
 
-                return false;
+                    return false;
                 });
 
                 // logout the user
@@ -234,28 +234,27 @@
                 }
                 
                 // show home page
-                function showHomePage(){
-                
-                // validate jwt to verify access
-                var jwt = getCookie('jwt');
-                $.post("api/validate_token.php", JSON.stringify({ jwt:jwt })).done(function(result) {
+                function showHomePage(name){                
+                    // validate jwt to verify access
+                    var jwt = getCookie('jwt');
+                    $.post("api/validate_token.php", JSON.stringify({ jwt:jwt })).done(function(result) {
 
-                    // if valid, show homepage
-                    var html = `
-                            <div class="card">
-                                <div class="card-header">Добро пожаловать</div>
-                                <div class="card-body">
-                                    <h5 class="card-title">Вы вошли в систему</h5>
-                                    <p class="card-text">You won't be able to access the home and account pages if you are not logged in.</p>
+                        // if valid, show homepage
+                        var html = `
+                                <div class="card">
+                                    <div class="card-header">Добро пожаловать</div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Вы вошли в систему как `+name+`</h5>
+                                        <p class="card-text"></p>
+                                    </div>
                                 </div>
-                            </div>
-                            `;
-                        
-                        $('#content').html(html);
-                        showLoggedInMenu();
-                    })
+                                `;
+                            
+                            $('#content').html(html);
+                            showLoggedInMenu();
+                        })
 
-                    // show login page on error
+                        // show login page on error
                         .fail(function(result){
                             showLoginPage();
                             $('#response').html("<div class='alert alert-danger'>Для продолжения нужно войти в систему</div>");
@@ -358,17 +357,17 @@
  
 <!-- navbar -->
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">Вход в систему Alfasat</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-            <a class="nav-item nav-link" href="#" id='home'>Home</a>
-            <a class="nav-item nav-link" href="#" id='update_account'>Account</a>
-            <a class="nav-item nav-link" href="#" id='logout'>Logout</a>
-            <a class="nav-item nav-link" href="#" id='login'>Login</a>
-            <a class="nav-item nav-link" href="#" id='sign_up'>Sign Up</a>
+            <a class="nav-item nav-link" href="#" id='home'>Главная</a>
+            <a class="nav-item nav-link" href="#" id='update_account'>Профиль</a>
+            <a class="nav-item nav-link" href="#" id='logout'>Выход</a>
+            <a class="nav-item nav-link" href="#" id='login'>Вход</a>
+            <a class="nav-item nav-link" href="#" id='sign_up'>Регистрация</a>
         </div>
     </div>
 </nav>
