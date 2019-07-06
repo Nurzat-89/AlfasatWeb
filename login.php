@@ -5,7 +5,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
  
-        <title>Login page</title>
+        <title>Авторизация</title>
  
         <!-- Bootstrap 4 CSS and custom CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
@@ -23,15 +23,15 @@
                 $(document).on('click', '#sign_up', function(){
             
                     var html = `
-                        <h2>Sign Up</h2>
+                        <h2>Регистрация</h2>
                         <form id='sign_up_form'>
                             <div class="form-group">
-                                <label for="firstname">Firstname</label>
+                                <label for="firstname">Имя</label>
                                 <input type="text" class="form-control" name="firstname" id="firstname" required />
                             </div>
             
                             <div class="form-group">
-                                <label for="lastname">Lastname</label>
+                                <label for="lastname">Фамилия</label>
                                 <input type="text" class="form-control" name="lastname" id="lastname" required />
                             </div>
             
@@ -41,11 +41,11 @@
                             </div>
             
                             <div class="form-group">
-                                <label for="password">Password</label>
+                                <label for="password">Пароль</label>
                                 <input type="password" class="form-control" name="password" id="password" required />
                             </div>
             
-                            <button type='submit' class='btn btn-primary'>Sign Up</button>
+                            <button type='submit' class='btn btn-primary'>Регистрация</button>
                         </form>
                         `;
             
@@ -68,12 +68,12 @@
                     data : form_data,
                     success : function(result) {
                         // if response is a success, tell the user it was a successful sign up & empty the input boxes
-                        $('#response').html("<div class='alert alert-success'>Successful sign up. Please login.</div>");
+                        $('#response').html("<div class='alert alert-success'>Регистрация прошла успешно</div>");
                         sign_up_form.find('input').val('');
                     },
                     error: function(xhr, resp, text){
                         // on error, tell the user sign up failed
-                        $('#response').html("<div class='alert alert-danger'>Unable to sign up. Please contact admin.</div>");
+                        $('#response').html("<div class='alert alert-danger'>Невозможно зарегистрироваться. Пожалуйста, свяжитесь с администратором.</div>");
                     }
                 });
 
@@ -105,12 +105,12 @@
                 
                         // show home page & tell the user it was a successful login
                         showHomePage();
-                        $('#response').html("<div class='alert alert-success'>Successful login.</div>");
+                        $('#response').html("<div class='alert alert-success'>Вы вошли в систему</div>");
                 
                     },
                     error: function(xhr, resp, text){
                         // on error, tell the user login has failed & empty the input boxes
-                        $('#response').html("<div class='alert alert-danger'>Login failed. Email or password is incorrect.</div>");
+                        $('#response').html("<div class='alert alert-danger'>Возникла ошибка при входе в систему. Неверный логин или пароль.</div>");
                         login_form.find('input').val('');
                     }
                 });
@@ -156,7 +156,7 @@
                     success : function(result) {
                 
                         // tell the user account was updated
-                        $('#response').html("<div class='alert alert-success'>Account was updated.</div>");
+                        $('#response').html("<div class='alert alert-success'>Учетная запись было обновлено</div>");
                 
                         // store new jwt to coookie
                         setCookie("jwt", result.jwt, 1);
@@ -165,12 +165,12 @@
                     // show error message to user
                     error: function(xhr, resp, text){
                         if(xhr.responseJSON.message=="Unable to update user."){
-                            $('#response').html("<div class='alert alert-danger'>Unable to update account.</div>");
+                            $('#response').html("<div class='alert alert-danger'>Ошибка при изменений учетной записи</div>");
                         }
                     
                         else if(xhr.responseJSON.message=="Access denied."){
                             showLoginPage();
-                            $('#response').html("<div class='alert alert-success'>Access denied. Please login</div>");
+                            $('#response').html("<div class='alert alert-success'>Для продолжения нужно войти в систему</div>");
                         }
                     }
                 });
@@ -181,7 +181,7 @@
                 // logout the user
                 $(document).on('click', '#logout', function(){
                     showLoginPage();
-                    $('#response').html("<div class='alert alert-info'>You are logged out.</div>");
+                    $('#response').html("<div class='alert alert-info'>Вы вышли из системы</div>");
                 });
             
                 // remove any prompt messages
@@ -200,16 +200,16 @@
                     <h2>Login</h2>
                     <form id='login_form'>
                         <div class='form-group'>
-                            <label for='email'>Email address</label>
-                            <input type='email' class='form-control' id='email' name='email' placeholder='Enter email'>
+                            <label for='email'>Email</label>
+                            <input type='email' class='form-control' id='email' name='email' placeholder='Введите email'>
                         </div>
 
                         <div class='form-group'>
-                            <label for='password'>Password</label>
-                            <input type='password' class='form-control' id='password' name='password' placeholder='Password'>
+                            <label for='password'>Пароль</label>
+                            <input type='password' class='form-control' id='password' name='password' placeholder='Пароль'>
                         </div>
 
-                        <button type='submit' class='btn btn-primary'>Login</button>
+                        <button type='submit' class='btn btn-primary'>Вход</button>
                     </form>
                     `;
 
@@ -243,9 +243,9 @@
                     // if valid, show homepage
                     var html = `
                             <div class="card">
-                                <div class="card-header">Welcome to Home!</div>
+                                <div class="card-header">Добро пожаловать</div>
                                 <div class="card-body">
-                                    <h5 class="card-title">You are logged in.</h5>
+                                    <h5 class="card-title">Вы вошли в систему</h5>
                                     <p class="card-text">You won't be able to access the home and account pages if you are not logged in.</p>
                                 </div>
                             </div>
@@ -258,7 +258,7 @@
                     // show login page on error
                         .fail(function(result){
                             showLoginPage();
-                            $('#response').html("<div class='alert alert-danger'>Please login to access the home page.</div>");
+                            $('#response').html("<div class='alert alert-danger'>Для продолжения нужно войти в систему</div>");
                         });
                 }
 
@@ -297,12 +297,12 @@
                                 <h2>Update Account</h2>
                                 <form id='update_account_form'>
                                     <div class="form-group">
-                                        <label for="firstname">Firstname</label>
+                                        <label for="firstname">Имя</label>
                                         <input type="text" class="form-control" name="firstname" id="firstname" required value="` + result.data.firstname + `" />
                                     </div>
                         
                                     <div class="form-group">
-                                        <label for="lastname">Lastname</label>
+                                        <label for="lastname">Фамилия</label>
                                         <input type="text" class="form-control" name="lastname" id="lastname" required value="` + result.data.lastname + `" />
                                     </div>
                         
@@ -312,12 +312,12 @@
                                     </div>
                         
                                     <div class="form-group">
-                                        <label for="password">Password</label>
+                                        <label for="password">Пароль</label>
                                         <input type="password" class="form-control" name="password" id="password" />
                                     </div>
                         
                                     <button type='submit' class='btn btn-primary'>
-                                        Save Changes
+                                        Сохранить
                                     </button>
                                 </form>
                             `;
@@ -329,7 +329,7 @@
                     // on error/fail, tell the user he needs to login to show the account page
                     .fail(function(result){
                         showLoginPage();
-                        $('#response').html("<div class='alert alert-danger'>Please login to access the account page.</div>");
+                        $('#response').html("<div class='alert alert-danger'>Для продолжения нужно войти в систему</div>");
                     });
                 }
 
