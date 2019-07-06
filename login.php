@@ -373,9 +373,9 @@
 </nav>
 <!-- /navbar -->
  
- <p></p>
- <p></p>
- <p></p>
+ <p>-</p>
+ <p>-</p>
+ <p>-</p>
 <!-- container -->
 <main role="main" class="container starter-template">
  
