@@ -104,7 +104,7 @@
                             setCookie("jwt", result.jwt, 1);
                     
                             // show home page & tell the user it was a successful login
-                            showHomePage(result.data.firstname);
+                            showHomePage();
                             $('#response').html("<div class='alert alert-success'>Вы вошли в систему</div>");
                     
                         },
@@ -120,7 +120,7 @@
 
                 // show home page
                 $(document).on('click', '#home', function(){
-                    showHomePage(result.data.firstname);
+                    showHomePage();
                     clearResponse();
                 });
                 
@@ -234,7 +234,7 @@
                 }
                 
                 // show home page
-                function showHomePage(name){                
+                function showHomePage(){                
                     // validate jwt to verify access
                     var jwt = getCookie('jwt');
                     $.post("api/validate_token.php", JSON.stringify({ jwt:jwt })).done(function(result) {
@@ -244,7 +244,7 @@
                                 <div class="card">
                                     <div class="card-header">Добро пожаловать</div>
                                     <div class="card-body">
-                                        <h5 class="card-title">Вы вошли в систему как `+name+`</h5>
+                                        <h5 class="card-title">Вы вошли в систему как</h5>
                                         <p class="card-text"></p>
                                     </div>
                                 </div>
@@ -373,6 +373,9 @@
 </nav>
 <!-- /navbar -->
  
+ <p></p>
+ <p></p>
+ <p></p>
 <!-- container -->
 <main role="main" class="container starter-template">
  
