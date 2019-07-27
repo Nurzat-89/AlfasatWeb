@@ -3,31 +3,42 @@
 <html class="js svg flexbox csstransforms gr__store_ardusat_com" lang="en">
    <!--<![endif]-->
    <head>
-   <meta name="description" content="Alfasat &amp;">
-      <!-- /snippets/social-meta-tags.liquid -->
-      <meta property="og:site_name" content="Alfasat">
-      <meta property="og:url" content="https://store.ardusat.com/">
-      <meta property="og:title" content="Alfasat &amp; KazNU">
-      <meta property="og:type" content="website">
-      <meta property="og:description" content="Alfasat &amp; Kaznu">
-      <meta name="twitter:site" content="@becauselearning">
-      <meta name="twitter:card" content="summary_large_image">
-      <meta name="twitter:title" content="Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits">
-      <meta name="twitter:description" content="Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits">
-      <link href="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/theme.scss.css" rel="stylesheet" type="text/css" media="all">
-      <script type="text/javascript" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/api.jquery.js.Без названия" async="" defer="true"></script><script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/collector.js.Без названия"></script><script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/pixel.js.Без названия"></script><script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/olark.js.Без названия"></script><script async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/analytics.js.Без названия"></script><script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/trekkie.storefront.min.js.Без названия"></script><script>var theme = {
-           strings: {
-             addToCart: "Add to cart",
-             soldOut: "Sold out",
-             unavailable: "Unavailable",
-             showMore: "Show More",
-             showLess: "Show Less"
-           },
-           moneyFormat: "$ {{amount}}"
-         }
-         
-         document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
-      </script>
+   <meta name="description" content="Our Story Because Learning helps students and educators learn STEM through exciting, hands-on lessons. Our experiments and hardware kits give aspiring scientists real-world experience measuring and analyzing data, helping them learn how science, technology, engineering, and math work in the world around us. Our mission">
+  
+
+  <!-- /snippets/social-meta-tags.liquid -->
+<meta property="og:site_name" content="Because Learning">
+<meta property="og:url" content="https://store.ardusat.com/pages/about-us">
+<meta property="og:title" content="About Us">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Our Story Because Learning helps students and educators learn STEM through exciting, hands-on lessons. Our experiments and hardware kits give aspiring scientists real-world experience measuring and analyzing data, helping them learn how science, technology, engineering, and math work in the world around us. Our mission">
+
+
+<meta name="twitter:site" content="@becauselearning">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="About Us">
+<meta name="twitter:description" content="Our Story Because Learning helps students and educators learn STEM through exciting, hands-on lessons. Our experiments and hardware kits give aspiring scientists real-world experience measuring and analyzing data, helping them learn how science, technology, engineering, and math work in the world around us. Our mission">
+
+
+  <link href="./About Us – Because Learning_files/theme.scss.css" rel="stylesheet" type="text/css" media="all">
+  
+
+
+
+  <script type="text/javascript" src="./About Us – Because Learning_files/api.jquery.js.Без названия" async="" defer="true"></script><script type="text/javascript" async="" src="./About Us – Because Learning_files/collector.js.Без названия"></script><script type="text/javascript" async="" src="./About Us – Because Learning_files/pixel.js.Без названия"></script><script type="text/javascript" async="" src="./About Us – Because Learning_files/olark.js.Без названия"></script><script async="" src="./About Us – Because Learning_files/analytics.js.Без названия"></script><script type="text/javascript" async="" src="./About Us – Because Learning_files/trekkie.storefront.min.js.Без названия"></script><script>
+    var theme = {
+      strings: {
+        addToCart: "Add to cart",
+        soldOut: "Sold out",
+        unavailable: "Unavailable",
+        showMore: "Show More",
+        showLess: "Show Less"
+      },
+      moneyFormat: "$ {{amount}}"
+    }
+
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+  </script>
       <!--[if (lte IE 9) ]><script src="//cdn.shopify.com/s/files/1/0672/0939/t/2/assets/match-media.min.js?0" type="text/javascript"></script><![endif]-->
       <!--[if (gt IE 9)|!(IE)]><!--><script src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/vendor.js.Без названия" defer="defer"></script><!--<![endif]-->
       <!--[if lte IE 9]><script src="//cdn.shopify.com/s/files/1/0672/0939/t/2/assets/vendor.js?0"></script><![endif]-->
