@@ -3,7 +3,23 @@
 <html class="js svg flexbox csstransforms gr__store_ardusat_com" lang="en">
    <!--<![endif]-->
    <head>
-   <meta name="description" content="Our Story Because Learning helps students and educators learn STEM through exciting, hands-on lessons. Our experiments and hardware kits give aspiring scientists real-world experience measuring and analyzing data, helping them learn how science, technology, engineering, and math work in the world around us. Our mission">
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0ad5d6">
+  <link rel="canonical" href="https://store.ardusat.com/pages/about-us">
+
+  
+
+  
+  <title>
+    Alfasat
+    
+  </title>
+
+  
+    <meta name="description" content="Our Story Because Learning helps students and educators learn STEM through exciting, hands-on lessons. Our experiments and hardware kits give aspiring scientists real-world experience measuring and analyzing data, helping them learn how science, technology, engineering, and math work in the world around us. Our mission">
   
 
   <!-- /snippets/social-meta-tags.liquid -->
