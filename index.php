@@ -323,27 +323,27 @@
                <ul id="MobileNav" class="mobile-nav">
                   <li class="mobile-nav__item border-bottom">
                      <a href="https://store.ardusat.com/" class="mobile-nav__link">
-                     Home
+                     Главная
                      </a>
                   </li>
                   <li class="mobile-nav__item border-bottom">
                      <a href="https://store.ardusat.com/pages/about-us" class="mobile-nav__link">
-                     About Us
+                     О нас
                      </a>
                   </li>
                   <li class="mobile-nav__item border-bottom">
                      <a href="https://www.becauselearning.com/blog/" class="mobile-nav__link">
-                     Blog
+                     Наши проекты
                      </a>
                   </li>
                   <li class="mobile-nav__item border-bottom">
                      <a href="https://store.ardusat.com/collections/all" class="mobile-nav__link">
-                     All Products
+                     Новости
                      </a>
                   </li>
                   <li class="mobile-nav__item">
                      <a href="https://www.becauselearning.com/" class="mobile-nav__link">
-                     For Home
+                     Контакты 
                      </a>
                   </li>
                </ul>
@@ -569,7 +569,7 @@
                      </div>
                      <div class="grid__item medium-up--one-third text-left">
                         <p>
-                           <img src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/SupportTeam_480x480.jpg" alt="feature-row__image">
+                           <img src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/team.jpg" alt="feature-row__image">
                         </p>
                         <h3 class="h4">Support</h3>
                         <div class="rte-setting">
