@@ -3,28 +3,19 @@
 <html class="js svg flexbox csstransforms gr__store_ardusat_com" lang="en">
    <!--<![endif]-->
    <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      <meta name="theme-color" content="#0ad5d6">
-      <link rel="canonical" href="https://store.ardusat.com/">
-      <title>
-         ALFASAT
-      </title>
-      <meta name="description" content="Alfasat &amp;">
+   <meta name="description" content="Alfasat &amp;">
       <!-- /snippets/social-meta-tags.liquid -->
-      <meta property="og:site_name" content="Because Learning">
+      <meta property="og:site_name" content="Alfasat">
       <meta property="og:url" content="https://store.ardusat.com/">
-      <meta property="og:title" content="Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits">
+      <meta property="og:title" content="Alfasat &amp; KazNU">
       <meta property="og:type" content="website">
-      <meta property="og:description" content="Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits">
+      <meta property="og:description" content="Alfasat &amp; Kaznu">
       <meta name="twitter:site" content="@becauselearning">
       <meta name="twitter:card" content="summary_large_image">
       <meta name="twitter:title" content="Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits">
       <meta name="twitter:description" content="Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits">
       <link href="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/theme.scss.css" rel="stylesheet" type="text/css" media="all">
-      <script type="text/javascript" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/api.jquery.js.Без названия" async="" defer="true"></script><script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/collector.js.Без названия"></script><script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/pixel.js.Без названия"></script><script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/olark.js.Без названия"></script><script async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/analytics.js.Без названия"></script><script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/trekkie.storefront.min.js.Без названия"></script><script>
-         var theme = {
+      <script type="text/javascript" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/api.jquery.js.Без названия" async="" defer="true"></script><script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/collector.js.Без названия"></script><script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/pixel.js.Без названия"></script><script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/olark.js.Без названия"></script><script async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/analytics.js.Без названия"></script><script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/trekkie.storefront.min.js.Без названия"></script><script>var theme = {
            strings: {
              addToCart: "Add to cart",
              soldOut: "Sold out",
