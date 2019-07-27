@@ -344,7 +344,7 @@
                   <div class="grid__item small--one-half medium-up--one-quarter logo-align--left">
                      <h1 class="h2 site-header__logo" itemscope="" itemtype="http://schema.org/Organization">
                         <a href="http://www.becauselearning.com/" itemprop="url" class="site-header__logo-image">
-                        <img src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/logoAlfasat.jpeg" srcset="Individual Starter Kits_files/logoAlfasat.jpeg" alt="Because Learning" itemprop="logo">
+                        <img src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/logoAlfasat.jpg" srcset="Individual Starter Kits_files/logoAlfasat.jpeg" alt="Because Learning" itemprop="logo">
                         </a>
                      </h1>
                   </div>
