@@ -3,60 +3,51 @@
 <html class="js svg flexbox csstransforms gr__store_ardusat_com" lang="en">
    <!--<![endif]-->
    <head>
-   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#0ad5d6">
-  <link rel="canonical" href="https://store.ardusat.com/">
-
-  
-
-  
-  <title>
-   Alfasat
-    
-    
-    
-  </title>
-
-  
-    <meta name="description" content="Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits">
-  
-
-  <!-- /snippets/social-meta-tags.liquid -->
-<meta property="og:site_name" content="Because Learning">
-<meta property="og:url" content="https://store.ardusat.com/">
-<meta property="og:title" content="Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits">
-<meta property="og:type" content="website">
-<meta property="og:description" content="Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits">
-
-
-<meta name="twitter:site" content="@becauselearning">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits">
-<meta name="twitter:description" content="Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits">
-
-
-  <link href="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/theme.scss.css" rel="stylesheet" type="text/css" media="all">
-  
-
-
-
-  <script async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/analytics.js.Без названия"></script><script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/collector.js.Без названия"></script><script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/pixel.js.Без названия"></script><script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/olark.js.Без названия"></script><script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/trekkie.storefront.min.js.Без названия"></script><script>
-    var theme = {
-      strings: {
-        addToCart: "Add to cart",
-        soldOut: "Sold out",
-        unavailable: "Unavailable",
-        showMore: "Show More",
-        showLess: "Show Less"
-      },
-      moneyFormat: "$ {{amount}}"
-    }
-
-    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
-  </script>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta name="theme-color" content="#0ad5d6">
+      <link rel="canonical" href="https://store.ardusat.com/">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <style>
+         /* Make the image fully responsive */
+         .carousel-inner img {
+            width: 100%;
+            height: 100%;
+         }
+      </style>
+      <title>
+         Alfasat
+      </title>
+      <meta name="description" content="Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits">
+      <!-- /snippets/social-meta-tags.liquid -->
+      <meta property="og:site_name" content="Because Learning">
+      <meta property="og:url" content="https://store.ardusat.com/">
+      <meta property="og:title" content="Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits">
+      <meta property="og:type" content="website">
+      <meta property="og:description" content="Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits">
+      <meta name="twitter:site" content="@becauselearning">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:title" content="Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits">
+      <meta name="twitter:description" content="Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits">
+      <link href="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/theme.scss.css" rel="stylesheet" type="text/css" media="all">
+      <script async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/analytics.js.Без названия"></script><script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/collector.js.Без названия"></script><script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/pixel.js.Без названия"></script><script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/olark.js.Без названия"></script><script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/trekkie.storefront.min.js.Без названия"></script><script>
+         var theme = {
+           strings: {
+             addToCart: "Add to cart",
+             soldOut: "Sold out",
+             unavailable: "Unavailable",
+             showMore: "Show More",
+             showLess: "Show Less"
+           },
+           moneyFormat: "$ {{amount}}"
+         }
+         
+         document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+      </script>
       <!--[if (lte IE 9) ]><script src="//cdn.shopify.com/s/files/1/0672/0939/t/2/assets/match-media.min.js?0" type="text/javascript"></script><![endif]-->
       <!--[if (gt IE 9)|!(IE)]><!--><script src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/vendor.js.Без названия" defer="defer"></script><!--<![endif]-->
       <!--[if lte IE 9]><script src="//cdn.shopify.com/s/files/1/0672/0939/t/2/assets/vendor.js?0"></script><![endif]-->
@@ -251,7 +242,8 @@
                document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
              
          })();
-      </script><script async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/shop_events_listener-acf771159f9849ef6e5265782c99efe8b99406214c96a4373224ecafe285d7bb.js.Без названия"></script>
+      </script>
+      <script async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/shop_events_listener-acf771159f9849ef6e5265782c99efe8b99406214c96a4373224ecafe285d7bb.js.Без названия"></script>
       <script crossorigin="anonymous" defer="defer" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/storefront-8ddbd55cc19e1ebbff92d676e1481c8e6b42e0c2714d3fdf6b810b1f193347b8.js.Без названия"></script>
       <script integrity="sha256-ZGMHgi9G7WU+Z7WiP2suSn84yzoN83sGf9nMWJhVHAw=" defer="defer" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/express_buttons-646307822f46ed653e67b5a23f6b2e4a7f38cb3a0df37b067fd9cc5898551c0c.js.Без названия" crossorigin="anonymous"></script>
       <script integrity="sha256-qzPTa4Ven/Yc2yyXr9BKZWCTXSrPTCnbGdWsxA7YCw0=" defer="defer" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/features-ab33d36b855e9ff61cdb2c97afd04a6560935d2acf4c29db19d5acc40ed80b0d.js.Без названия" crossorigin="anonymous"></script>
@@ -262,18 +254,17 @@
          }
          }
          @media screen and (max-width: 750px) {
-             #dynamic-checkout-cart {
-             min-height: 120px;
-             }
+         #dynamic-checkout-cart {
+         min-height: 120px;
          }
-         
+         }
       </style>
-       <style>
-        .title-back-class{
-              background-image: url(Shop%2520Because%2520Learning%2520Classroom%2520Launch%2520Packs%2520&%2520Individual%2520Starter%2520Kits_files/fonBlue.png); 
-              background-position: center center;
-          }
-       </style>
+      <style>
+         .title-back-class{
+         background-image: url(Shop%2520Because%2520Learning%2520Classroom%2520Launch%2520Packs%2520&%2520Individual%2520Starter%2520Kits_files/fonBlue.png); 
+         background-position: center center;
+         }
+      </style>
       <script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
       <!-- Font-Awesome ================================================== -->
       <link href="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
@@ -288,30 +279,30 @@
       </div>
       <script>
          /* Begin Discount Autofill Code */
-         /* Read the Query String value from the URL */    
+         /* Read the Query String value from the URL */
          /* Link: http://stackoverflow.com/a/2880929 - Notes: No clue how this regex stuff works. Probably fairy magic.  */
-             var urlParams;
-             (window.onpopstate = function () {
-                 var match,
-                     pl     = /\+/g,  // Regex for replacing addition symbol with a space
-                     search = /([^&=]+)=?([^&]*)/g,
-                     decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
-                     query  = window.location.search.substring(1);
-         
-             urlParams = {};
-             while (match = search.exec(query))
-             urlParams[decode(match[1])] = decode(match[2]);
-             })();
-         
-             if (urlParams["discount"] != ''
-              && urlParams["discount"] != undefined
-              && urlParams["discount"] != null
-              && urlParams["discount"] != 'undefined') {
-                sessionStorage.removeItem("discount");
-                sessionStorage.setItem("discount", urlParams["discount"]);
-             }
-         
-             
+         var urlParams;
+         (window.onpopstate = function () {
+            var match,
+               pl = /\+/g, // Regex for replacing addition symbol with a space
+               search = /([^&=]+)=?([^&]*)/g,
+               decode = function (s) {
+                  return decodeURIComponent(s.replace(pl, " "));
+               },
+               query = window.location.search.substring(1);
+
+            urlParams = {};
+            while (match = search.exec(query))
+               urlParams[decode(match[1])] = decode(match[2]);
+         })();
+
+         if (urlParams["discount"] != '' &&
+            urlParams["discount"] != undefined &&
+            urlParams["discount"] != null &&
+            urlParams["discount"] != 'undefined') {
+            sessionStorage.removeItem("discount");
+            sessionStorage.setItem("discount", urlParams["discount"]);
+         }
       </script>
       <a class="in-page-link visually-hidden skip-link" href="https://store.ardusat.com/#MainContent">Skip to content</a>
       <div id="SearchDrawer" class="search-bar drawer drawer--top">
@@ -453,7 +444,7 @@
       <div class="page-container drawer-page-content" id="PageContainer">
          <main class="main-content" id="MainContent" role="main">
             <!-- BEGIN content_for_index -->
-            <div id="shopify-section-hero" class="shopify-section index-section index-section--flush">
+            <!--<div id="shopify-section-hero" class="shopify-section index-section index-section--flush">
                <div class="hero hero--medium hero__overlay title-back-class" style="background-color: #0EC2DC">
                   <div class="hero__inner">
                      <div class="page-width text-center">
@@ -465,6 +456,17 @@
                         </div>
                      </div>
                   </div>
+               </div>
+            </div>-->
+            <div id="shopify-section-hero" class="shopify-section index-section index-section--flush" class="carousel-inner">
+               <div class="carousel-item active">
+                  <img src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/slidePic1.png" alt="Los Angeles" width="1100" height="500">
+               </div>
+               <div class="carousel-item">
+                  <img src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/slidePic2.png" alt="Chicago" width="1100" height="500">
+               </div>
+               <div class="carousel-item">
+                  <img src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/slidePic3.png" alt="New York" width="1100" height="500">
                </div>
             </div>
             <div id="shopify-section-feature-row" class="shopify-section index-section">
@@ -689,100 +691,127 @@
             <div aria-live="assertive" aria-atomic="true" role="alert" id="chat-box-announcer" style="position:absolute;visibility:visible;overflow:hidden;display:block;width:1px;height:1px;margin:-1px;border:0px;padding:0px;clip:rect(0px, 0px, 0px, 0px);clip-path:polygon(0px 0px, 0px 0px, 0px 0px, 0px 0px);white-space:nowrap;" data-reactid=".0.0">
                <p data-reactid=".0.0.0"></p>
             </div>
-            <style rel="stylesheet" type="text/css" data-reactid=".0.1">#olark-wrapper.olark-dark-theme #olark-container .olark-button {
-               background-color: #151616 !important;
-               color: #ffffff !important;
+            <style rel="stylesheet" type="text/css" data-reactid=".0.1">
+               #olark-wrapper.olark-dark-theme #olark-container .olark-button {
+                  background-color: #151616 !important;
+                  color: #ffffff !important;
                }
+
                #olark-wrapper.olark-dark-theme #olark-container .olark-button:hover {
-               background-color: #070808 !important;
+                  background-color: #070808 !important;
                }
+
                #olark-wrapper.olark-dark-theme #olark-container .olark-theme-bg {
-               background-color: #151616 !important;
+                  background-color: #151616 !important;
                }
+
                #olark-wrapper.olark-dark-theme #olark-container .olark-theme-text {
-               color: #ffffff !important;
+                  color: #ffffff !important;
                }
+
                #olark-wrapper.olark-dark-theme .olark-launch-button {
-               background-color: #151616 !important;
+                  background-color: #151616 !important;
                }
+
                #olark-wrapper.olark-dark-theme .olark-launch-button svg path {
-               fill: #ffffff !important;
+                  fill: #ffffff !important;
                }
+
                #olark-wrapper.olark-dark-theme .olark-launch-button .olark-button-text {
-               color: #ffffff !important;
+                  color: #ffffff !important;
                }
+
                #olark-wrapper.olark-dark-theme .olark-top-bar {
-               background-color: #151616 !important;
-               color: #ffffff !important;
-               border-color: #070808 !important;
+                  background-color: #151616 !important;
+                  color: #ffffff !important;
+                  border-color: #070808 !important;
                }
+
                #olark-wrapper.olark-dark-theme .olark-top-bar-text {
-               color: #ffffff !important;
+                  color: #ffffff !important;
                }
+
                #olark-wrapper.olark-dark-theme .olark-top-bar-arrow {
-               fill: #ffffff !important;
+                  fill: #ffffff !important;
                }
+
                #olark-wrapper.olark-dark-theme .olark-end-chat-button {
-               color: #ffffff !important;
-               background-color: rgba(0, 0, 0, 0.5) !important;
+                  color: #ffffff !important;
+                  background-color: rgba(0, 0, 0, 0.5) !important;
                }
+
                #olark-wrapper.olark-dark-theme .olark-end-chat-button:hover {
-               background-color: #000000 !important;
+                  background-color: #000000 !important;
                }
+
                #olark-wrapper.olark-dark-theme #olark-container .olark-visitor-message:not(.olark-message-trans-bg) {
-               background-color: #151616 !important;
-               color: #ffffff !important;
+                  background-color: #151616 !important;
+                  color: #ffffff !important;
                }
+
                #olark-wrapper.olark-dark-theme #olark-container .olark-form-send-button {
-               background-color: #151616 !important;
-               color: #ffffff !important;
+                  background-color: #151616 !important;
+                  color: #ffffff !important;
                }
+
                #olark-wrapper.olark-dark-theme #olark-container .olark-feedback-form-button {
-               background-color: #151616 !important;
-               color: #ffffff !important;
+                  background-color: #151616 !important;
+                  color: #ffffff !important;
                }
+
                #olark-wrapper.olark-dark-theme #olark-container .olark-restart-button {
-               background-color: #151616 !important;
-               color: #ffffff !important;
+                  background-color: #151616 !important;
+                  color: #ffffff !important;
                }
+
                #olark-wrapper.olark-dark-theme #olark-container .olark-branding-panel .olark-branding-cancel-button {
-               background-color: #151616 !important;
-               border: none !important;
-               color: #ffffff !important;
+                  background-color: #151616 !important;
+                  border: none !important;
+                  color: #ffffff !important;
                }
+
                #olark-wrapper.olark-dark-theme #olark-container .olark-branding-panel .olark-branding-go-button {
-               border: none !important;
-               background: rgba(21, 22, 22, 0.75) !important;
-               border-color: rgba(7, 8, 8, 0.7) !important;
-               color: #ffffff !important;
+                  border: none !important;
+                  background: rgba(21, 22, 22, 0.75) !important;
+                  border-color: rgba(7, 8, 8, 0.7) !important;
+                  color: #ffffff !important;
                }
+
                #olark-wrapper.olark-dark-theme #olark-container .olark-send-transcript-container .olark-send-transcript-form.olark-inline-form-valid .olark-form-input-container {
-               border-color: #151616 !important;
+                  border-color: #151616 !important;
                }
+
                #olark-wrapper.olark-dark-theme #olark-container .olark-send-transcript-container .olark-send-transcript-form.olark-inline-form-valid .olark-send-icon {
-               fill: #151616 !important;
+                  fill: #151616 !important;
                }
+
                #olark-wrapper.olark-dark-theme #olark-container .olark-survey-form .olark-survey-form-radio-button:checked {
-               background: #151616 !important;
-               border-color: #151616 !important;
+                  background: #151616 !important;
+                  border-color: #151616 !important;
                }
+
                #olark-wrapper.olark-dark-theme #olark-container .olark-visitor-message:not(.olark-message-has-border) {
-               border: none !important;
+                  border: none !important;
                }
+
                #olark-wrapper.olark-dark-theme .olark-end-chat-flag {
-               fill: currentcolor !important;
+                  fill: currentcolor !important;
                }
+
                #olark-wrapper.olark-dark-theme #olark-container .olark-message-link-icon svg g {
-               fill: #ffffff !important;
+                  fill: #ffffff !important;
                }
+
                #olark-wrapper.olark-dark-theme #olark-container .olark-form-input:focus {
-               border-color: #151616 !important;
+                  border-color: #151616 !important;
                }
+
                #olark-wrapper.olark-dark-theme #olark-container .olark-form-message-input:focus {
-               border-color: #151616 !important;
+                  border-color: #151616 !important;
                }
+
                #olark-wrapper.olark-dark-theme #olark-container .olark-form-confirmation-icon .olark-launch-button-icon {
-               fill: #151616 !important;
+                  fill: #151616 !important;
                }
             </style>
             <noscript data-reactid=".0.2"></noscript>
