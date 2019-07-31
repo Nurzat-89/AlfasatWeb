@@ -15,8 +15,8 @@
       <style>
          /* Make the image fully responsive */
          .carousel-inner img {
-            width: 90%;
-            height: 30%;
+            width: 100%;
+            height: 300px;
          }
       </style>
       <title>
