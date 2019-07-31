@@ -458,16 +458,32 @@
                   </div>
                </div>
             </div>-->
-            <div id="shopify-section-hero" class="shopify-section index-section index-section--flush" class="carousel-inner">
-               <div class="carousel-item active">
-                  <img src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/slidePic1.png" alt="Los Angeles" width="1100" height="500">
+            <div  id="shopify-section-hero" class="carousel slide" data-ride="carousel">
+
+               <!-- Indicators -->
+               <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
+               </ul>
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <img src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/slidePic1.png" alt="Los Angeles" width="1100" height="500">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/slidePic2.png" alt="Chicago" width="1100" height="500">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/slidePic3.png" alt="New York" width="1100" height="500">
+                  </div>
                </div>
-               <div class="carousel-item">
-                  <img src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/slidePic2.png" alt="Chicago" width="1100" height="500">
-               </div>
-               <div class="carousel-item">
-                  <img src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/slidePic3.png" alt="New York" width="1100" height="500">
-               </div>
+               <!-- Left and right controls -->
+               <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+               </a>
+               <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+               </a>
             </div>
             <div id="shopify-section-feature-row" class="shopify-section index-section">
                <div class="page-width feature-row">
