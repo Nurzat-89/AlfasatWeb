@@ -468,13 +468,13 @@
                </ul>
                <div class="carousel-inner">
                   <div class="carousel-item active">
-                     <img src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/slidePic1.png" alt="Los Angeles" width="1100" height="500">
+                     <img src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/slidePic1.png" alt="Los Angeles" width="800" height="300">
                   </div>
                   <div class="carousel-item">
-                     <img src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/slidePic2.png" alt="Chicago" width="1100" height="500">
+                     <img src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/slidePic2.png" alt="Chicago" width="800" height="300">
                   </div>
                   <div class="carousel-item">
-                     <img src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/slidePic3.png" alt="New York" width="1100" height="500">
+                     <img src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/slidePic3.png" alt="New York" width="800" height="300">
                   </div>
                </div>
                <!-- Left and right controls -->
