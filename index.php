@@ -477,6 +477,16 @@
                      <img src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/slidePic3.png" alt="New York" width="800" height="300">
                   </div>
                </div>
+               <div class="hero__inner">
+                     <div class="page-width text-center">
+                        <h2 class="h1 mega-title">Первый Казахстанский Наноспутник</h2>
+                        <div class="rte-setting mega-subtitle">
+                           <p><strong>Первый Казахстанский Наноспутник</strong></p>
+                           <p></p>
+                           <p>Первый Казахстанский Наноспутник</p>
+                        </div>
+                     </div>
+               </div>
                <!-- Left and right controls -->
                <a class="carousel-control-prev" href="#demo" data-slide="prev">
                   <span class="carousel-control-prev-icon"></span>
