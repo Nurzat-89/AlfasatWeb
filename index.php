@@ -458,7 +458,7 @@
                   </div>
                </div>
             </div>-->
-            <div  id="shopify-section-hero" class="carousel slide" data-ride="carousel">
+            <div  id="shopify-section-hero" class="shopify-section index-section index-section--flush carousel slide" data-ride="carousel">
 
                <!-- Indicators -->
                <ul class="carousel-indicators">
@@ -466,7 +466,7 @@
                   <li data-target="#demo" data-slide-to="1"></li>
                   <li data-target="#demo" data-slide-to="2"></li>
                </ul>
-               <div class="carousel-inner">
+               <div class="carousel-inner hero hero--medium hero__overlay title-back-class">
                   <div class="carousel-item active">
                      <img src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/slidePic1.png" alt="Los Angeles" width="800" height="300">
                   </div>
