@@ -24,6 +24,22 @@
             background-repeat: no-repeat;
             background-size: cover;
          }
+         /* Position text in the middle of the page/image */
+         .bg-text {
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+            color: white;
+            font-weight: bold;
+            border: 3px solid #f1f1f1;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 80%;
+            padding: 20px;
+            text-align: center;
+         }
       </style>
       <title>
          Alfasat
@@ -474,9 +490,9 @@
                </ul>
                <div class="carousel-inner">
                   <div class="carousel-caption">
-                        <div class="page-width text-center">
+                        <div class="bg-text">
                            <h2 class="h1 mega-title">Первый Казахстанский Наноспутник</h2>
-                           <div class="rte-setting mega-subtitle">
+                           <div>
                               <p><strong>Первый Казахстанский Наноспутник</strong></p>
                               <p></p>
                               <p>Первый Казахстанский Наноспутник</p>
