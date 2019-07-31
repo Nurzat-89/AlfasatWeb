@@ -466,7 +466,7 @@
                   <li data-target="#demo" data-slide-to="1"></li>
                   <li data-target="#demo" data-slide-to="2"></li>
                </ul>
-               <div class="carousel-inner hero__inner">
+               <div class="carousel-inner">
                   <div class="carousel-caption">
                         <div class="page-width text-center">
                            <h2 class="h1 mega-title">Первый Казахстанский Наноспутник</h2>
