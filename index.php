@@ -18,8 +18,8 @@
             width: 100%;
             height: 100%;
             /* Add the blur effect */
-            filter: blur(8px);
-            -webkit-filter: blur(8px);
+            filter: blur(2px);
+            -webkit-filter: blur(2px);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
