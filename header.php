@@ -1,57 +1,139 @@
-
-
-
-
-<div id="header">
-      <div id="logo">
-        <div id="logo_text">
-          <!-- class="logo_colour", allows you to change the colour of the text -->
-          <h1 class="color-main-header"><a href="index.php">
-			  <?php if($_GET['lang']=='kz'){ echo 'Наножерсерік';}
-			  else if($_GET['lang']=='en') { echo 'Nanosatelite';} 			  
-			  else { echo 'Наноспутник';}; ?>
-			  
-			  <span class="logo_colour">Al-Farabi</span></a>
-		  </h1>
-          <h2 style="color:#fff;">Kazakh National University</h2>
-        </div>
+<div>   
+   <a class="in-page-link visually-hidden skip-link" href="https://store.ardusat.com/#MainContent">Skip to content</a>
+   <div id="SearchDrawer" class="search-bar drawer drawer--top">
+      <div class="search-bar__table">
+         <div class="search-bar__table-cell search-bar__form-wrapper">
+            <form class="search search-bar__form" action="https://store.ardusat.com/search" method="get" role="search">
+               <button class="search-bar__submit search__submit btn--link" type="submit">
+                  <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-search" viewBox="0 0 37 40">
+                     <path d="M35.6 36l-9.8-9.8c4.1-5.4 3.6-13.2-1.3-18.1-5.4-5.4-14.2-5.4-19.7 0-5.4 5.4-5.4 14.2 0 19.7 2.6 2.6 6.1 4.1 9.8 4.1 3 0 5.9-1 8.3-2.8l9.8 9.8c.4.4.9.6 1.4.6s1-.2 1.4-.6c.9-.9.9-2.1.1-2.9zm-20.9-8.2c-2.6 0-5.1-1-7-2.9-3.9-3.9-3.9-10.1 0-14C9.6 9 12.2 8 14.7 8s5.1 1 7 2.9c3.9 3.9 3.9 10.1 0 14-1.9 1.9-4.4 2.9-7 2.9z"></path>
+                  </svg>
+                  <span class="icon__fallback-text">Submit</span>
+               </button>
+               <input class="search__input search-bar__input" type="search" name="q" value="" placeholder="Search" aria-label="Search">
+            </form>
+         </div>
+         <div class="search-bar__table-cell text-right">
+            <button type="button" class="btn--link search-bar__close js-drawer-close">
+               <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 37 40">
+                  <path d="M21.3 23l11-11c.8-.8.8-2 0-2.8-.8-.8-2-.8-2.8 0l-11 11-11-11c-.8-.8-2-.8-2.8 0-.8.8-.8 2 0 2.8l11 11-11 11c-.8.8-.8 2 0 2.8.4.4.9.6 1.4.6s1-.2 1.4-.6l11-11 11 11c.4.4.9.6 1.4.6s1-.2 1.4-.6c.8-.8.8-2 0-2.8l-11-11z"></path>
+               </svg>
+               <span class="icon__fallback-text">Close search</span>
+            </button>
+         </div>
       </div>
-	
-	
-      <div id="menubar">
-		  <ul id="menu">
-           
-			
-			
-           
-		  <?php if($_GET['lang'] == 'en'): ?>
-			<li class="main selected"><a href="index.php?lang=en&page=main">Main</a></li>	
-			<li class="aboutus"><a href="index.php?lang=en&page=aboutus">About us</a></li>		  
-		  	<li class="projects"><a href="index.php?lang=en&page=projects">Projects</a></li>	
-			<li class="eduqation"><a href="index.php?lang=en&page=eduqation">Eduqation</a></li>
-			<li class="news"><a href="index.php?lang=en&page=news">News</a></li>
-          	<li class="contacts"><a href="index.php?lang=en&page=contacts">Contacts</a></li>
-		   <?php  elseif($_GET['lang'] == 'kz'): ?>
-			<li class="main selected"><a href="index.php?lang=kz&page=main">Басты</a></li>	
-			<li class="aboutus"><a href="index.php?lang=kz&page=aboutus">Біз жайлы</a></li>		  
-		  	<li class="projects"><a href="index.php?lang=kz&page=projects">Жобалар</a></li>	
-			<li class="eduqation"><a href="index.php?lang=kz&page=eduqation">Оқыту</a></li>
-			<li class="news"><a href="index.php?lang=kz&page=news">Жаңалық</a></li>
-          	<li class="contacts"><a href="index.php?lang=kz&page=contacts">Байланыс</a></li>
-		   <?php else: ?>
-			<li class="main selected"><a href="index.php?lang=ru&page=main">Главная</a></li>	
-			<li class="aboutus"><a href="index.php?lang=ru&page=aboutus">О нас</a></li>		  
-		  	<li class="projects"><a href="index.php?lang=ru&page=projects">Проекты</a></li>	
-			<li class="eduqation"><a href="index.php?lang=ru&page=eduqation">Образование</a></li>
-			<li class="news"><a href="index.php?lang=ru&page=news">Новости</a></li>
-          	<li class="contacts"><a href="index.php?lang=ru&page=contacts">Контакты</a></li>
-		   <?php endif;?>
-			          
-        </ul>
-		  	<div class="topright">
-				<a href = "index.php?lang=kz"> <img width="20px" height="20px" src = "images/kaz.png"></a>
-				<a href = "index.php?lang=ru"> <img width="20px" height="20px" src = "images/ru.png"></a>
-		  		<a href = "index.php?lang=en"> <img width="20px" height="20px" src = "images/eng.png"></a>
-		  </div>
+   </div>
+   <div id="shopify-section-header" class="shopify-section">
+      <div data-section-id="header" data-section-type="header-section">
+         <nav class="mobile-nav-wrapper medium-up--hide" role="navigation">
+            <ul id="MobileNav" class="mobile-nav">
+               <li class="mobile-nav__item border-bottom">
+                  <a href="/index.php?page=main" class="mobile-nav__link">
+                  Главная
+                  </a>
+               </li>
+               <li class="mobile-nav__item border-bottom">
+                  <a href="/index.php?page=aboutus" class="mobile-nav__link">
+                  О нас
+                  </a>
+               </li>
+               <li class="mobile-nav__item border-bottom">
+                  <a href="/index.php?page=projects" class="mobile-nav__link">
+                  Наши проекты
+                  </a>
+               </li>
+               <li class="mobile-nav__item border-bottom">
+                  <a href="/index.php?page=news" class="mobile-nav__link">
+                  Новости
+                  </a>
+               </li>
+               <li class="mobile-nav__item">
+                  <a href="/index.php?page=contacts" class="mobile-nav__link">
+                  Контакты 
+                  </a>
+               </li>
+            </ul>
+         </nav>
+         <header class="site-header border-bottom logo--left" role="banner">
+            <div class="grid grid--no-gutters grid--table">
+               <div class="grid__item small--one-half medium-up--one-quarter logo-align--left">
+                  <h1 class="h2 site-header__logo" itemscope="" itemtype="http://schema.org/Organization">
+                     <a href="#" itemprop="url" class="site-header__logo-image">
+                     <img src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/logoAlfasat.jpg" srcset="Individual Starter Kits_files/logoAlfasat.jpeg" alt="Because Learning" itemprop="logo">
+                     </a>
+                  </h1>
+               </div>
+               <nav class="grid__item medium-up--one-half small--hide" id="AccessibleNav" role="navigation">
+                  <ul class="site-nav list--inline " id="SiteNav">
+                     <li class="site-nav--active">
+                        <a href="/index.php?page=main" class="site-nav__link site-nav__link--main">
+                        Главная</a>
+                     </li>
+                     <li>
+                        <a href="/index.php?page=aboutus" class="site-nav__link site-nav__link--main">
+                        О нас</a>
+                     </li>
+                     <li>
+                        <a href="/index.php?page=projects" class="site-nav__link site-nav__link--main">
+                        Наши проекты</a>
+                     </li>
+                     <li>
+                        <a href="/index.php?page=news" class="site-nav__link site-nav__link--main">
+                        Новости</a>
+                     </li>
+                     <li>
+                        <a href="/index.php?page=contacts" class="site-nav__link site-nav__link--main">
+                        Контакты</a>
+                     </li>
+                  </ul>
+               </nav>
+               <div class="grid__item small--one-half medium-up--one-quarter text-right site-header__icons">
+                  <div class="site-header__icons-wrapper">
+                     <div class="site-header__search small--hide">
+                        <form action="https://store.ardusat.com/search" method="get" class="search-header search" role="search">
+                           <input class="search-header__input search__input" type="search" name="q" placeholder="Search" aria-label="Search">
+                           <button class="search-header__submit search__submit btn--link" type="submit">
+                              <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-search" viewBox="0 0 37 40">
+                                 <path d="M35.6 36l-9.8-9.8c4.1-5.4 3.6-13.2-1.3-18.1-5.4-5.4-14.2-5.4-19.7 0-5.4 5.4-5.4 14.2 0 19.7 2.6 2.6 6.1 4.1 9.8 4.1 3 0 5.9-1 8.3-2.8l9.8 9.8c.4.4.9.6 1.4.6s1-.2 1.4-.6c.9-.9.9-2.1.1-2.9zm-20.9-8.2c-2.6 0-5.1-1-7-2.9-3.9-3.9-3.9-10.1 0-14C9.6 9 12.2 8 14.7 8s5.1 1 7 2.9c3.9 3.9 3.9 10.1 0 14-1.9 1.9-4.4 2.9-7 2.9z"></path>
+                              </svg>
+                              <span class="icon__fallback-text">Submit</span>
+                           </button>
+                        </form>
+                     </div>
+                     <button type="button" class="btn--link site-header__search-toggle js-drawer-open-top medium-up--hide" aria-controls="SearchDrawer" aria-expanded="false">
+                        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-search" viewBox="0 0 37 40">
+                           <path d="M35.6 36l-9.8-9.8c4.1-5.4 3.6-13.2-1.3-18.1-5.4-5.4-14.2-5.4-19.7 0-5.4 5.4-5.4 14.2 0 19.7 2.6 2.6 6.1 4.1 9.8 4.1 3 0 5.9-1 8.3-2.8l9.8 9.8c.4.4.9.6 1.4.6s1-.2 1.4-.6c.9-.9.9-2.1.1-2.9zm-20.9-8.2c-2.6 0-5.1-1-7-2.9-3.9-3.9-3.9-10.1 0-14C9.6 9 12.2 8 14.7 8s5.1 1 7 2.9c3.9 3.9 3.9 10.1 0 14-1.9 1.9-4.4 2.9-7 2.9z"></path>
+                        </svg>
+                        <span class="icon__fallback-text">Search</span>
+                     </button>
+                     <a href="https://store.ardusat.com/cart" class="site-header__cart">
+                        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-cart" viewBox="0 0 37 40">
+                           <path d="M36.5 34.8L33.3 8h-5.9C26.7 3.9 23 .8 18.5.8S10.3 3.9 9.6 8H3.7L.5 34.8c-.2 1.5.4 2.4.9 3 .5.5 1.4 1.2 3.1 1.2h28c1.3 0 2.4-.4 3.1-1.3.7-.7 1-1.8.9-2.9zm-18-30c2.2 0 4.1 1.4 4.7 3.2h-9.5c.7-1.9 2.6-3.2 4.8-3.2zM4.5 35l2.8-23h2.2v3c0 1.1.9 2 2 2s2-.9 2-2v-3h10v3c0 1.1.9 2 2 2s2-.9 2-2v-3h2.2l2.8 23h-28z"></path>
+                        </svg>
+                        <span class="visually-hidden">Cart</span>
+                        <span class="icon__fallback-text">Cart</span>
+                     </a>
+                     <button type="button" class="btn--link site-header__menu js-mobile-nav-toggle mobile-nav--open">
+                        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-hamburger" viewBox="0 0 37 40">
+                           <path d="M33.5 25h-30c-1.1 0-2-.9-2-2s.9-2 2-2h30c1.1 0 2 .9 2 2s-.9 2-2 2zm0-11.5h-30c-1.1 0-2-.9-2-2s.9-2 2-2h30c1.1 0 2 .9 2 2s-.9 2-2 2zm0 23h-30c-1.1 0-2-.9-2-2s.9-2 2-2h30c1.1 0 2 .9 2 2s-.9 2-2 2z"></path>
+                        </svg>
+                        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 37 40">
+                           <path d="M21.3 23l11-11c.8-.8.8-2 0-2.8-.8-.8-2-.8-2.8 0l-11 11-11-11c-.8-.8-2-.8-2.8 0-.8.8-.8 2 0 2.8l11 11-11 11c-.8.8-.8 2 0 2.8.4.4.9.6 1.4.6s1-.2 1.4-.6l11-11 11 11c.4.4.9.6 1.4.6s1-.2 1.4-.6c.8-.8.8-2 0-2.8l-11-11z"></path>
+                        </svg>
+                        <span class="icon__fallback-text">expand/collapse</span>
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </header>
+         <style>
+            .site-header__logo-image {
+               max-width: 157px;
+            }
+            .site-header__logo-image {
+            margin: 0;
+            }
+         </style>
       </div>
-    </div>
+   </div>
+</div>      
