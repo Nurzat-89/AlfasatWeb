@@ -39,7 +39,7 @@
                </li>
                <li class="mobile-nav__item border-bottom">
                   <a href="/index.php?page=projects" class="mobile-nav__link">
-                  Наши проекты
+                  Все продукты
                   </a>
                </li>
                <li class="mobile-nav__item border-bottom">
@@ -75,7 +75,7 @@
                      </li>
                      <li>
                         <a href="/index.php?page=projects" class="site-nav__link site-nav__link--main">
-                        Наши проекты</a>
+                        Все продукты</a>
                      </li>
                      <li>
                         <a href="/index.php?page=news" class="site-nav__link site-nav__link--main">
@@ -106,10 +106,8 @@
                         </svg>
                         <span class="icon__fallback-text">Search</span>
                      </button>
-                     <a href="https://store.ardusat.com/cart" class="site-header__cart">
-                        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-cart" viewBox="0 0 37 40">
-                           <path d="M36.5 34.8L33.3 8h-5.9C26.7 3.9 23 .8 18.5.8S10.3 3.9 9.6 8H3.7L.5 34.8c-.2 1.5.4 2.4.9 3 .5.5 1.4 1.2 3.1 1.2h28c1.3 0 2.4-.4 3.1-1.3.7-.7 1-1.8.9-2.9zm-18-30c2.2 0 4.1 1.4 4.7 3.2h-9.5c.7-1.9 2.6-3.2 4.8-3.2zM4.5 35l2.8-23h2.2v3c0 1.1.9 2 2 2s2-.9 2-2v-3h10v3c0 1.1.9 2 2 2s2-.9 2-2v-3h2.2l2.8 23h-28z"></path>
-                        </svg>
+                     <a href="/index.php?page=login" class="site-header__cart">
+                        <img aria-hidden="true" focusable="false" role="presentation" style="width:32px;" viewBox="0 0 37 40" src="./images/loginava.png"/>                           
                         <span class="visually-hidden">Cart</span>
                         <span class="icon__fallback-text">Cart</span>
                      </a>

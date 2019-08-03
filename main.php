@@ -16,7 +16,7 @@
             </div>-->
             <div  id="shopify-section-hero" class="carousel slide" data-ride="carousel">
 
-               <!-- Indicators -->
+               
                <ul class="carousel-indicators">
                   <li data-target="#demo" data-slide-to="0" class="active"></li>
                   <li data-target="#demo" data-slide-to="1"></li>
@@ -33,10 +33,15 @@
                      <img src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/slidePic3.png" alt="New York" width="800" height="300">
                   </div>
                </div>
-               
-               <div class="bg-text">
-                  <h1 style="font-size:50px">Первый Казахстанский Наноспутник</h1>
-                  <p>Первый Казахстанский Наноспутник</p>
+               <br>
+               <br>
+               <div class="page-width text-center">
+                        <h2 class="h1 mega-title">Первый Казахстанский Наноспутник</h2>
+                        <div class="rte-setting mega-subtitle">
+                           <p><strong>Первый Казахстанский Наноспутник</strong></p>
+                           <p></p>
+                           <p>Первый Казахстанский Наноспутник</p>
+                        </div>
                </div>
 
                <!-- Left and right controls -->

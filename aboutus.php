@@ -55,7 +55,7 @@
                                         <div class="shg-c-lg-6 shg-c-md-6 shg-c-sm-6 shg-c-xs-12">
                                             <div id="s-9f4feb59-daa4-4404-b87e-6a2101a144a1" class="shg-c  ">
                                                 <div class="image-wrap">
-                                                    <img src="./images/temirbayev.jpg" class=" wp-post-image wp-image-6864" title="Kevin Cocco" alt="CIO, Co-Founder" srcset="./images/temirbayev.jpg 240w" sizes="(max-width: 150px) 100vw, 192px" pagespeed_url_hash="808906246" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                                    <img src="./images/temirbayev1.jpg" class=" wp-post-image wp-image-6864" title="Kevin Cocco" alt="CIO, Co-Founder" srcset="./images/temirbayev1.jpg 240w" sizes="(max-width: 120px) 100vw, 150px" pagespeed_url_hash="808906246" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
                                                 </div>
                                                 <div class="image-wrap">Темирбаев А.А. </div>
                                                 <div class="image-wrap">Директор, руководитель</div>
@@ -68,7 +68,7 @@
                                         <div class="shg-c-lg-6 shg-c-md-6 shg-c-sm-6 shg-c-xs-12">
                                             <div id="s-d42af794-0d21-4955-8c68-8125b484bec5" class="shg-c  ">
                                                 <div class="image-wrap">
-                                                    <img src="./images/ozat2.png" width="400" class=" wp-post-image wp-image-6866" title="Maureen Marcoux" alt="Director of Business Development" srcset="images/ozat2.png 240w" sizes="(max-width: 400px) 100vw, 150px" pagespeed_url_hash="1098362074" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                                    <img src="./images/ozat3.JPG" width="400" class=" wp-post-image wp-image-6866" title="Maureen Marcoux" alt="Director of Business Development" srcset="images/ozat3.JPG 240w" sizes="(max-width: 400px) 100vw, 150px" pagespeed_url_hash="1098362074" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
                                                 </div>
                                                 <div class="image-wrap">Туенбаев О.К. </div>
                                                 <div class="image-caption">Старший программист</div>
@@ -112,7 +112,7 @@
                                         <div class="shg-c-lg-6 shg-c-md-6 shg-c-sm-6 shg-c-xs-12">
                                             <div id="s-3a7f8f3a-df91-4bf0-9094-f82841d341c6" class="shg-c  ">
                                                 <div class="image-caption">
-                                                    <img src="./images/alex.jpg">
+                                                    <img src="./images/sabyr.png" width="400" class=" wp-post-image wp-image-6866" title="Maureen Marcoux" alt="Director of Business Development" srcset="images/sabyr.jpg 240w" sizes="(max-width: 400px) 100vw, 150px" pagespeed_url_hash="1098362074" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
                                                 </div>
                                                 <div class="image-caption">Орынбасар С.</div>
                                                 <div class="image-caption">Инженер</div>

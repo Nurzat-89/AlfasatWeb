@@ -19,8 +19,8 @@
             width: 100%;
             height: 100%;
             /* Add the blur effect */
-            filter: blur(2px);
-            -webkit-filter: blur(2px);
+            filter: blur(0px);
+            -webkit-filter: blur(0px);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -316,7 +316,7 @@
          }
          else
          {
-            include('aboutus.php');	
+            include('main.php');	
          };
       ?>	
       <?php include('footer.php');?>
