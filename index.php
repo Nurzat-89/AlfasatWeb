@@ -56,7 +56,13 @@
       <meta name="twitter:title" content="Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits">
       <meta name="twitter:description" content="Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits">
       <link href="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/theme.scss.css" rel="stylesheet" type="text/css" media="all">
-      <script async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/analytics.js.Без названия"></script><script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/collector.js.Без названия"></script><script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/pixel.js.Без названия"></script><script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/olark.js.Без названия"></script><script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/trekkie.storefront.min.js.Без названия"></script><script>
+      <script async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/analytics.js.Без названия">
+      </script>
+      <script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/collector.js.Без названия"></script>
+      <script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/pixel.js.Без названия"></script>
+      <script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/olark.js.Без названия"></script>
+      <script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/trekkie.storefront.min.js.Без названия"></script>
+      <script>
          var theme = {
            strings: {
              addToCart: "Add to cart",
@@ -71,9 +77,11 @@
          document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
       </script>
       <!--[if (lte IE 9) ]><script src="//cdn.shopify.com/s/files/1/0672/0939/t/2/assets/match-media.min.js?0" type="text/javascript"></script><![endif]-->
-      <!--[if (gt IE 9)|!(IE)]><!--><script src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/vendor.js.Без названия" defer="defer"></script><!--<![endif]-->
+      <!--[if (gt IE 9)|!(IE)]><!-->
+      <script src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/vendor.js.Без названия" defer="defer"></script><!--<![endif]-->
       <!--[if lte IE 9]><script src="//cdn.shopify.com/s/files/1/0672/0939/t/2/assets/vendor.js?0"></script><![endif]-->
-      <!--[if (gt IE 9)|!(IE)]><!--><script src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/theme.js.Без названия" defer="defer"></script><!--<![endif]-->
+      <!--[if (gt IE 9)|!(IE)]><!-->
+      <script src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/theme.js.Без названия" defer="defer"></script><!--<![endif]-->
       <!--[if lte IE 9]><script src="//cdn.shopify.com/s/files/1/0672/0939/t/2/assets/theme.js?0"></script><![endif]-->
       <script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script>
       <meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/6720939/digital_wallets/dialog">
@@ -297,7 +305,7 @@
    </head>
    <body class="template-index" data-gr-c-s-loaded="true">
       <div style="display: none;" id="olark">
-         <olark><iframe frameborder="0" id="olark-loader" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/saved_resource.html"></iframe></olark>
+         <!-- <olark><iframe frameborder="0" id="olark-loader" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/saved_resource.html"></iframe></olark> -->
       </div>
       <script>
          /* Begin Discount Autofill Code */
@@ -355,12 +363,12 @@
             <nav class="mobile-nav-wrapper medium-up--hide" role="navigation">
                <ul id="MobileNav" class="mobile-nav">
                   <li class="mobile-nav__item border-bottom">
-                     <a href="https://store.ardusat.com/" class="mobile-nav__link">
+                     <a href="#" class="mobile-nav__link">
                      Главная
                      </a>
                   </li>
                   <li class="mobile-nav__item border-bottom">
-                     <a href="https://store.ardusat.com/pages/about-us" class="mobile-nav__link">
+                     <a href="/aboutus.php" class="mobile-nav__link">
                      О нас
                      </a>
                   </li>
@@ -393,11 +401,11 @@
                   <nav class="grid__item medium-up--one-half small--hide" id="AccessibleNav" role="navigation">
                      <ul class="site-nav list--inline " id="SiteNav">
                         <li class="site-nav--active">
-                           <a href="https://store.ardusat.com/" class="site-nav__link site-nav__link--main">
+                           <a href="#" class="site-nav__link site-nav__link--main">
                            Главная</a>
                         </li>
                         <li>
-                           <a href="https://store.ardusat.com/pages/about-us" class="site-nav__link site-nav__link--main">
+                           <a href="/aboutus.php" class="site-nav__link site-nav__link--main">
                            О нас</a>
                         </li>
                         <li>
