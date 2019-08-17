@@ -16,7 +16,7 @@
             // jQuery codes
             $(document).ready(function(){
 
-                checkLoginState();
+                
                 // show sign up / registration form
                 $(document).on('click', '#sign_up', function(){
             

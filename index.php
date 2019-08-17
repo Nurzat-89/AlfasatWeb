@@ -134,6 +134,25 @@
       <script>window.ShopifyPay = window.ShopifyPay || {};
          window.ShopifyPay.apiHost = "pay.shopify.com";
       </script>
+      <script>
+            // jQuery codes
+            $(document).ready(function(){
+               checkLoginState();
+               function checkLoginState(){                
+                  var jwt = getCookie('jwt');
+                  $.post("api/validate_token.php", JSON.stringify({ jwt:jwt })).done(function(result) {
+                     document.getElementById("SntLoginIcon").style.display="none";  
+                     var name = document.getElementById("SntLoginName");
+                     name.style.display="inline";  
+                     name.innerHTML = result.data.firstname;
+                  })
+                  .fail(function(result){
+                     document.getElementById("SntLoginIcon").style.display="flex";                             
+                     document.getElementById("SntLoginName").style.display="none"; 
+                  });
+               }
+            }
+      </script>
       <script>(function() {
          function asyncLoad() {
            var urls = ["https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/0939\/t\/1\/assets\/olark.js?2625109585449911693\u0026shop=ardusat.myshopify.com","https:\/\/cdn.getshogun.com\/pixel.js?v=3\u0026shop=ardusat.myshopify.com","https:\/\/analytics.getshogun.com\/collector.js?shop=ardusat.myshopify.com"];
