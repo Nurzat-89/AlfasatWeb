@@ -1,115 +1,103 @@
+        <style>
+            .img-padding{
+                padding:-10px;
+                width:300px;                               
+            }
+        </style>
+        <main class="main-content" id="MainContent" role="main">
+            <div class="page-width">
+                <div class="grid">
+                    <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
+                        <div class="section-header text-center">
+                            <h1>Наши проекты</h1>
+                        </div>
+						<div class="section-header text-center">
+                            <h2>Програмное обеспечение - Alfasat</h2>
+                        </div>
+                        <div class="rte">
+                            <!-- Created with Shogun. -->
+                            <link rel="stylesheet" type="text/css" href="./Shop Because Learning Classroom Launch Packs & Individual Starter Kits_files/085c2cb4-6483-4c54-8dea-04674ad0c011.css">
+                            <div class="shogun-root">
+                                <div id="s-1e20ff29-74f2-488b-9807-599054f79e1e" class="shg-c  ">
+                                    <div id="text-6871-sub_row_6-0-3-1-0" class="module module-text text-6871-sub_row_6-0-3-1-0   ">
+
+                                        <p style="text-align: left;">
+                                        Программа ALFASAT состоит из трех основных функций: отслеживание спутника по TLE (Two Line Interface), прием и передача команд летательному аппарату с помощью TNC (Terminal Node Controller) и изменение параметров ICOM (частоты, режимы передачи, эффект Доплера). ALFASAT позволяет автоматический загружать и обновлять TLE спутников из базы данных NORAD. Период обновление TLE тридцать дней. В панели управления можно изменять параметры карты и спутника, т.е. цвет карты, терминатор, трассу и зону покрытия спутника, а также имеется функция для отображения спутника в трехмерном виде. Местоположение наземной станции тоже добавляется из базы данных и туда включены все города и населенные пункты РК. Для расчетов траекторий спутника в программе использовалась открытая библиотека SGP4. SGP4 – это математическая модель, используемая для расчетов орбитальных параметров спутника в геоцентрической системе координат.       	</p>
+
+                                        <div class="section-header text-left" style="padding-bottom:5px;margin-bottom:0px;">
+											<h3 style="padding-bottom:5px;margin-bottom:0px;">Область применения</h3>
+										</div>
+										<p style="text-align: left;">
+                                        Космическая технология. Спутниковая связь. Астрономия. Система спутникового слежения.    
+										</p> 	
+										<div class="section-header text-left" style="padding-bottom:5px;margin-bottom:0px;">
+											<h3 style="padding-bottom:5px;margin-bottom:0px;">Назначение</h3>
+										</div>
+										<p style="text-align: left;">
+                                        Слежение и установка радиосвязи со спутниками.     
+										</p> 	
+										<div class="section-header text-left" style="padding-bottom:5px;margin-bottom:0px;">
+											<h3 style="padding-bottom:5px;margin-bottom:0px;">Функциональные возможности:</h3>
+										</div>	
+										<ul>
+											<li>Визуальное наблюдение, двухмерная и трехмерная анимация полета спутника</li>
+											<li>Обновление данных TLE через интернет</li>
+											<li>Управление ротором антенной</li>
+											<li>Возможность подключения TNC для передачи команды</li>
+											<li>Тестирование спутника с помощью CAN шины</li>
+											<li>Управление радиоcстанцией ICOM</li>
+                                        </ul>
+                                        <p>&nbsp;</p>
+                                    </div>
+                                </div>
+								<div class="section-header text-left" style="padding-bottom:5px;margin-bottom:0px;">
+									<h3 style="padding-bottom:5px;margin-bottom:0px;">Tle (Two Line Element Set)</h3>
+								</div>
+								<div class="section-header text-left" style="padding-bottom:5px;margin-bottom:0px;">
+									<h4 style="padding-bottom:5px;margin-bottom:0px;">Al-Farabi 1</h4>
+								</div>
+								<div style="font-family: monospace;font-size:12px; background:#fff;">
+								<p style="padding:2px;margin:2px;">1 42016U 17008BW  19045.65480810  .00001409  00000-0  59144-4 0  9991</p>
+								<p style="padding:2px;margin:2px;">2 42016  97.4191 113.9522 0004920 237.7344 122.3418 15.25112219110994</p>
+								</div><br>
+								<div class="section-header text-left" style="padding-bottom:5px;margin-bottom:0px;">
+									<h4 style="padding-bottom:5px;margin-bottom:0px;">Al-Farabi 2</h4>
+								</div>
+								<div style="font-family: monospace;font-size:12px; background:#fff;">
+								<p style="padding:2px;margin:2px;">1 43805U 18099AZ  19045.76469610  .00000325  00000-0  34753-4 0  9991</p>
+								<p style="padding:2px;margin:2px;">2 43805  97.7563 119.1721 0015937  28.1240 332.0838 14.95210096 10918</p>
+								</div><br>
+								<div id="mapAf1"></div>
+                                
+								<div class="section-header text-left" style="padding-bottom:5px;margin-bottom:0px;">
+									<h3 style="padding-bottom:5px;padding-top:15px;margin-bottom:0px;">Скриншоты</h3>
+								</div>
+                              
+							  	<div style="margin:0 auto; align:center;">
+									<img src="images/screen1.png" width = "600" ><br><br>
+									<img src="images/screen2.png" width = "600"><br><br>
+									<img src="images/screen3.png" width = "600"><br><br>
+									<img src="images/screen4.png" width = "600"><br><br>
+                                </div>
+                                <br>                              
+                            </div>
+                            <script type="text/javascript" src="./Shop Because Learning Classroom Launch Packs & Individual Starter Kits_files/085c2cb4-6483-4c54-8dea-04674ad0c011.js.Без названия" async=""></script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+
 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
   <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
   <style>
-    #mapAf2{ width: 700px; height: 400px; }
-	  #mapAf1{ width: 700px; height: 400px; }
+    #mapAf2{ width: 100%; height: 400px; }
+	  #mapAf1{ width: 100%; height: 400px; }
   </style>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<!----Англииский----->
-<?php if($_GET['lang']=='en'){?>
-<h2>Satellite control software - Alfasat</h2>
-<h4>Brief description</h4>
-<p>
-The ALFASAT program consists of three main functions: tracking a satellite via TLE (Two Line Interface), receiving and transmitting commands to an aircraft using a TNC (Terminal Node Controller) and changing ICOM parameters (frequencies, transmission modes, Doppler effect). ALFASAT allows you to automatically download and update TLE satellites from the NORAD database. TLE update period of thirty days. In the control panel, you can change the parameters of the map and the satellite, i.e. the color of the map, the terminator, the track and the satellite coverage area, and there is also a function to display the satellite in three-dimensional form. The locations of ground stations are also added from the database and all cities and towns of the Republic of Kazakhstan are included there. The program uses the open library SGP4 to calculate satellite trajectories. SGP4 is a mathematical model used to calculate satellite orbital parameters in a geocentric coordinate system.   	
-</p>
-<h4>Application area</h4>
-<p>
-Space technology. Satellite connection. Astronomy. Satellite tracking system.   	
-</p>
-<h4>Purpose</h4>
-<p>
-Tracking and installation of radio communications with satellites.
-</p>
-<h4>Functionality:</h4>
-	<ul>
-	<li> Visual observation, two-dimensional and three-dimensional animation of a satellite’s flight </ li>
-<li> Update TLE data via the Internet </ li>
-<li> Antenna rotor control </ li>
-<li> TNC connectivity for command transmission </ li>
-<li> Satellite testing using CAN bus </ li>
-<li> Control of the ICOM radio station </ li>
-	</ul>
-
-<!----Казахский----->
-<?php } elseif($_GET['lang']=='kz'){?>
-<h2>Програмное обеспечение - Alfasat</h2>
-<h4>Краткое описание </h4>
-<p>
-Программа ALFASAT состоит из трех основных функций: отслеживание спутника по TLE (Two Line Interface), прием и передача команд летательному аппарату с помощью TNC (Terminal Node Controller) и изменение параметров ICOM (частоты, режимы передачи, эффект Доплера). ALFASAT позволяет автоматический загружать и обновлять TLE спутников из базы данных NORAD. Период обновление TLE тридцать дней. В панели управления можно изменять параметры карты и спутника, т.е. цвет карты, терминатор, трассу и зону покрытия спутника, а также имеется функция для отображения спутника в трехмерном виде. Местоположение наземной станции тоже добавляется из базы данных и туда включены все города и населенные пункты РК. Для расчетов траекторий спутника в программе использовалась открытая библиотека SGP4. SGP4 – это математическая модель, используемая для расчетов орбитальных параметров спутника в геоцентрической системе координат.       	
-</p>
-<h4>Область применения</h4>
-<p>
-Космическая технология. Спутниковая связь. Астрономия. Система спутникового слежения.     	
-</p>
-<h4>Назначение</h4>
-<p>
-Слежение и установка радиосвязи со спутниками.     	
-</p>
-<h4>Функциональные возможности:</h4>
-	<ul>
-		<li>Визуальное наблюдение, двухмерная и трехмерная анимация полета спутника</li>
-		<li>Обновление данных TLE через интернет</li>
-		<li>Управление ротором антенной</li>
-		<li>Возможность подключения TNC для передачи команды</li>
-		<li>Тестирование спутника с помощью CAN шины</li>
-		<li>Управление радиоcстанцией ICOM</li>
-	</ul>
-
-<!----Русский----->
-<?php } else {?>
-<h2>Програмное обеспечение - Alfasat</h2>
-<h4>Краткое описание </h4>
-<p>
-Программа ALFASAT состоит из трех основных функций: отслеживание спутника по TLE (Two Line Interface), прием и передача команд летательному аппарату с помощью TNC (Terminal Node Controller) и изменение параметров ICOM (частоты, режимы передачи, эффект Доплера). ALFASAT позволяет автоматический загружать и обновлять TLE спутников из базы данных NORAD. Период обновление TLE тридцать дней. В панели управления можно изменять параметры карты и спутника, т.е. цвет карты, терминатор, трассу и зону покрытия спутника, а также имеется функция для отображения спутника в трехмерном виде. Местоположение наземной станции тоже добавляется из базы данных и туда включены все города и населенные пункты РК. Для расчетов траекторий спутника в программе использовалась открытая библиотека SGP4. SGP4 – это математическая модель, используемая для расчетов орбитальных параметров спутника в геоцентрической системе координат.       	
-</p>
-<h4>Область применения</h4>
-<p>
-Космическая технология. Спутниковая связь. Астрономия. Система спутникового слежения.     	
-</p>
-<h4>Назначение</h4>
-<p>
-Слежение и установка радиосвязи со спутниками.     	
-</p>
-<h4>Функциональные возможности:</h4>
-	<ul>
-		<li>Визуальное наблюдение, двухмерная и трехмерная анимация полета спутника</li>
-		<li>Обновление данных TLE через интернет</li>
-		<li>Управление ротором антенной</li>
-		<li>Возможность подключения TNC для передачи команды</li>
-		<li>Тестирование спутника с помощью CAN шины</li>
-		<li>Управление радиоcстанцией ICOM</li>
-	</ul>
-<?php };?>
-
-<h1>Tle (Two Line Element Set)</h1>
-<h4>Al-Farabi 1</h4>
-<div style="font-family: monospace;font-size:12px; background:#fff;">
-<p style="padding=10px;margin=10px;">1 42016U 17008BW  19045.65480810  .00001409  00000-0  59144-4 0  9991</p>
-<p>2 42016  97.4191 113.9522 0004920 237.7344 122.3418 15.25112219110994</p>
-</div><br>
-<div id="mapAf1"></div>
-
-
-<h4>Al-Farabi 2</h4>
-<div style="font-family: monospace;font-size:12px;padding=0px;margin=0px; background:#fff;">
-<p>1 43805U 18099AZ  19045.76469610  .00000325  00000-0  34753-4 0  9991</p>
-<p>2 43805  97.7563 119.1721 0015937  28.1240 332.0838 14.95210096 10918</p>
-</div><br>
-<div id="mapAf2"></div>
-<!----Англииский----->
-<?php if($_GET['lang']=='en'){?>
-<h1>Tracking</h1>
-<!----Kazakh----->
-<?php } elseif($_GET['lang']=='kz'){?>
-<h1>Бақылау</h1>
-<!----Russian----->
-<?php } else{?>
-<h1>Отслеживание</h1>
-<?php };?>
-
-
 
  <script>
 	 $.ajax({
@@ -173,37 +161,3 @@ Tracking and installation of radio communications with satellites.
 	 var myVar = setInterval(myTimer, 1000);
 	 	 
   </script>
-
-
-<!----Англииский----->
-<?php if($_GET['lang']=='en'){?>
-<h1>Softwares</h1>
-<h2>Alfasat</h2>
-<!----Kazakh----->
-<?php } elseif($_GET['lang']=='kz'){?>
-<h1>Программалар</h1>
-<h2>Alfasat</h2>
-<!----Russian----->
-<?php } else{?>
-<h1>Программы</h1>
-<h2>Alfasat</h2>
-<?php };?>
-<a href="http://kazps.kz/GS/Setup.exe">Alfasat v1.3</a><br>
-<a href="">Alfasat v1.2</a><br>
-<a href="">Alfasat v1.1</a><br>
-	<h2>Orbitron</h2>
-<p><a href="https://satsputnik.ru/wp-content/uploads/2014/11/orbitron.rar">Orbitron</a>
-	
-	<?php if($_GET['lang']=='en'){?> 
-<h2>Screenshots</h2>
-<?php } elseif($_GET['lang']=='kz'){?> 
-<h2>Скриншоттар</h2>
-<?php } else{?> 
-<h2>Скриншоты</h2>
-<?php };?>
-<p>
-<img src="images/screen1.png" width = "600"><br><br>
-<img src="images/screen2.png" width = "600"><br><br>
-<img src="images/screen3.png" width = "600"><br><br>
-<img src="images/screen4.png" width = "600"><br><br>
-</p>

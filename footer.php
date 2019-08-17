@@ -56,7 +56,7 @@
                      </div>
                      <div class="grid__item text-center">
                         <div class="site-footer__copyright">
-                           <small class="site-footer__copyright-content">© 2019, <a href="https://store.ardusat.com/" title="">Because Learning</a></small>
+                           <small class="site-footer__copyright-content">© 2019, <a href="#" title="">Alfasat</a></small>
                            <small class="site-footer__copyright-content site-footer__copyright-content--powered-by"><a target="_blank" rel="nofollow" href="https://www.shopify.com/?utm_campaign=poweredby&amp;utm_medium=shopify&amp;utm_source=onlinestore"> </a></small>
                         </div>
                      </div>

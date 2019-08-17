@@ -19,21 +19,38 @@
             width: 100%;
             height: 100%;
             /* Add the blur effect */
-            filter: blur(2px);
-            -webkit-filter: blur(2px);
+            filter: blur(0px);
+            -webkit-filter: blur(0px);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
          }
+         /*sign-in*/
+         .log-in{
+            background-image: url(../images/login-ava.png);
+            width:30px;
+            height: 30px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+         }
+
+         .log-in-container{
+            max-width: 200px;
+            width: 100%;
+            height: 100%;
+            padding-left: 170px;
+         }
+         .login-link{
+            display: flex;
+         }
          /* Position text in the middle of the page/image */
          .bg-text {
-            background-color: rgb(0,0,0); /* Fallback color */
-            background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
             color: white;
             font-weight: bold;
-            border: 3px solid #f1f1f1;
+            /* border: 3px solid #f1f1f1; */
             position: absolute;
-            top: 50%;
+            bottom: 2%;
             left: 50%;
             transform: translate(-50%, -50%);
             z-index: 2;

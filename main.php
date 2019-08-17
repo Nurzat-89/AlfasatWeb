@@ -36,7 +36,6 @@
                
                <div class="bg-text">
                   <h1 style="font-size:50px">Первый Казахстанский Наноспутник</h1>
-                  <p>Первый Казахстанский Наноспутник</p>
                </div>
 
                <!-- Left and right controls -->
@@ -140,21 +139,6 @@
                      </div>
                   </div>
                </div>
-            </div>
-            <div id="shopify-section-1490653334744" class="shopify-section index-section index-section--flush">
-               <div class="hero hero--medium hero__overlay" style="background-image: url(&#39;//cdn.shopify.com/s/files/1/0672/0939/files/pinkgradient_2048x.png?v=1511214931&#39;); background-position: center top;">
-                  <div class="hero__inner">
-                     <div class="page-width text-center">
-                        <h2 class="h1 mega-title">This is How STEM Comes to Life</h2>
-                        <div class="rte-setting mega-subtitle">
-                           <p>Once you get your Sensor Kits, there are all kinds of ways to start exploring.&nbsp;</p>
-                        </div>
-                        <a href="https://store.ardusat.com/pages/contact-us" class="btn hero__btn">
-                        Request a Demonstration
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
+            </div>            
             <!-- END content_for_index -->
          </main>
