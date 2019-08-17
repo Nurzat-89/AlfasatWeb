@@ -180,6 +180,8 @@
                 // logout the user
                 $(document).on('click', '#logout', function(){
                     showLoginPage();
+                    document.getElementById("SntLoginIcon").style.display="flex";                             
+                    document.getElementById("SntLoginName").style.display="none"; 
                     $('#response').html("<div class='alert alert-info'>Вы вышли из системы</div>");
                 });
             
@@ -240,7 +242,10 @@
                     var jwt = getCookie('jwt');
                     $.post("api/validate_token.php", JSON.stringify({ jwt:jwt })).done(function(result) {
 
-                        document.getElementById("SntLoginIcon").style.display="none";                          
+                        document.getElementById("SntLoginIcon").style.display="none";  
+                        var name = document.getElementById("SntLoginName");
+                        name.style.display="inline";  
+                        name.innerHTML = result.data.firstname;                
                         // if valid, show homepage
                         var html = `
                                 <div class="card">
@@ -258,7 +263,8 @@
 
                         // show login page on error
                         .fail(function(result){
-                            document.getElementById("SntLoginIcon").style.display="flex";  
+                            document.getElementById("SntLoginIcon").style.display="flex";                             
+                            document.getElementById("SntLoginName").style.display="none";  
                             showLoginPage();
                             $('#response').html("<div class='alert alert-danger'>Для продолжения нужно войти в систему</div>");
                         });
@@ -270,7 +276,7 @@
                             document.getElementById("SntLoginIcon").style.display="none";  
                             var name = document.getElementById("SntLoginName");
                             name.style.display="inline";  
-                            name.innerHTML = esult.data.firstname;
+                            name.innerHTML = result.data.firstname;
                         })
                         .fail(function(result){
                             document.getElementById("SntLoginIcon").style.display="flex";                             
