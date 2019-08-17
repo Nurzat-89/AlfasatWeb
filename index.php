@@ -7,6 +7,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta name="theme-color" content="#0ad5d6">
+      
       <link rel="canonical" href="https://store.ardusat.com/">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
       <link rel="stylesheet" type="text/css" href="./About Us – Because Learning_files/085c2cb4-6483-4c54-8dea-04674ad0c011.css">
@@ -41,9 +42,7 @@
             height: 100%;
             padding-left: 170px;
          }
-         .login-link{
-            display: flex;
-         }
+         
          /* Position text in the middle of the page/image */
          .bg-text {
             color: white;

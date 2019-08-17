@@ -7,10 +7,6 @@
  
         <title>Авторизация</title>
  
-        <!-- Bootstrap 4 CSS and custom CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
-        <link rel="stylesheet" type="text/css" href="custom.css" />
- 
         <!-- jQuery & Bootstrap 4 JavaScript libraries -->
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -355,42 +351,39 @@
     </head>
 <body>
  
-<!-- navbar -->
-<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="#">Вход в систему Alfasat</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-            <a class="nav-item nav-link" href="#" id='home'>Главная</a>
-            <a class="nav-item nav-link" href="#" id='update_account'>Профиль</a>
-            <a class="nav-item nav-link" href="#" id='logout'>Выход</a>
-            <a class="nav-item nav-link" href="#" id='login'>Вход</a>
-            <a class="nav-item nav-link" href="#" id='sign_up'>Регистрация</a>
-        </div>
-    </div>
-</nav>
-<!-- /navbar -->
- 
- <p>-</p>
- <p>-</p>
- <p>-</p>
 <!-- container -->
-<main role="main" class="container starter-template">
  
-    <div class="row">
-        <div class="col">
- 
-            <!-- where prompt / messages will appear -->
-            <div id="response"></div>
- 
-            <!-- where main content will appear -->
-            <div id="content"></div>
-        </div>
-    </div>
- 
+<main class="main-content" id="MainContent" role="main">
+            <div class="page-width">
+                <div class="grid">
+                    <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
+                        <!-- where prompt / messages will appear -->
+                        <div id="response"></div>
+                        
+                        <!-- where main content will appear -->
+                        <div id="content">
+                        <div class="section-header text-left">
+                            <h2>Логин</h2>
+                        </div>
+                                <form id='login_form'>
+                                    <div class='form-group'>
+                                        <label for='email'>Email</label>
+                                        <input type='email' class='form-control' id='email' name='email' placeholder='Введите email'>
+                                    </div>
+
+                                    <div class='form-group'>
+                                        <label for='password'>Пароль</label>
+                                        <input type='password' class='form-control' id='password' name='password' placeholder='Пароль'>
+                                    </div>
+
+                                    <button type='submit' class='btn btn-primary'>Вход</button>
+                                </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
 </main>
+ 
 <!-- /container -->
  
 <!-- script links will be here -->
