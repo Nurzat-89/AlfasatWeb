@@ -15,6 +15,8 @@
         <script>
             // jQuery codes
             $(document).ready(function(){
+
+                checkLoginState();
                 // show sign up / registration form
                 $(document).on('click', '#sign_up', function(){
             
@@ -259,6 +261,20 @@
                             document.getElementById("SntLoginIcon").style.display="flex";  
                             showLoginPage();
                             $('#response').html("<div class='alert alert-danger'>Для продолжения нужно войти в систему</div>");
+                        });
+                }
+
+                function checkLoginState(){                
+                    var jwt = getCookie('jwt');
+                    $.post("api/validate_token.php", JSON.stringify({ jwt:jwt })).done(function(result) {
+                            document.getElementById("SntLoginIcon").style.display="none";  
+                            var name = document.getElementById("SntLoginName");
+                            name.style.display="inline";  
+                            name.innerHTML = esult.data.firstname;
+                        })
+                        .fail(function(result){
+                            document.getElementById("SntLoginIcon").style.display="flex";                             
+                            document.getElementById("SntLoginName").style.display="none"; 
                         });
                 }
 

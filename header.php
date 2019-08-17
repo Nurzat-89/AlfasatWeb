@@ -82,7 +82,7 @@
                               <div class="log-in"></div>                              
                         </div>                         
                      </a>
-                     <div class="login-name">Nurzat Kenzhebayev</div>
+                     <div id="SntLoginName" class="login-name" style="display:inline;">Nurzat Kenzhebayev</div>
                      <button type="button" class="btn--link site-header__menu js-mobile-nav-toggle mobile-nav--open">
                         <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-hamburger" viewBox="0 0 37 40">
                            <path d="M33.5 25h-30c-1.1 0-2-.9-2-2s.9-2 2-2h30c1.1 0 2 .9 2 2s-.9 2-2 2zm0-11.5h-30c-1.1 0-2-.9-2-2s.9-2 2-2h30c1.1 0 2 .9 2 2s-.9 2-2 2zm0 23h-30c-1.1 0-2-.9-2-2s.9-2 2-2h30c1.1 0 2 .9 2 2s-.9 2-2 2z"></path>

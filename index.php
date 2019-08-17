@@ -71,7 +71,7 @@
 
 @media (max-width:768px){
    .login-name{
-        display:none;
+        display:none;        
     }
 }
       </style>
