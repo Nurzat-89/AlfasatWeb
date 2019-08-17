@@ -41,6 +41,7 @@
                                 <input type="password" class="form-control" name="password" id="password" required />
                             </div>
             
+                            <div id='login' class='btn btn-primary'>Вход</div>
                             <button type='submit' class='btn btn-primary'>Регистрация</button>
                         </form>
                         `;
@@ -83,7 +84,8 @@
                 
                 // trigger when login form is submitted
                 $(document).on('submit', '#login_form', function(){
-                
+   
+                    document.getElementById("update_account").style.display="none"; 
                     // get form data
                     var login_form=$(this);
                     var form_data=JSON.stringify(login_form.serializeObject());
@@ -97,8 +99,7 @@
                         success : function(result){
                     
                             // store jwt to cookie
-                            setCookie("jwt", result.jwt, 1);
-                    
+                            setCookie("jwt", result.jwt, 1);                           
                             // show home page & tell the user it was a successful login
                             showHomePage();
                             $('#response').html("<div class='alert alert-success'>Вы вошли в систему</div>");
@@ -193,7 +194,7 @@
 
                 // login page html
                 var html = `
-                    <h2>Login</h2>
+                    <h2>Логин</h2>
                     <form id='login_form'>
                         <div class='form-group'>
                             <label for='email'>Email</label>
@@ -206,6 +207,7 @@
                         </div>
 
                         <button type='submit' class='btn btn-primary'>Вход</button>
+                        <div id='sign_up' class='btn btn-primary'>Регистрация</div>
                     </form>
                     `;
 
@@ -231,10 +233,12 @@
                 
                 // show home page
                 function showHomePage(){                
+                    var id = document.getElementsByClassName("SntLoginId")[0];
                     // validate jwt to verify access
                     var jwt = getCookie('jwt');
                     $.post("api/validate_token.php", JSON.stringify({ jwt:jwt })).done(function(result) {
 
+                        document.getElementById("SntLoginIcon").style.display="none";                          
                         // if valid, show homepage
                         var html = `
                                 <div class="card">
@@ -252,6 +256,7 @@
 
                         // show login page on error
                         .fail(function(result){
+                            document.getElementById("SntLoginIcon").style.display="flex";  
                             showLoginPage();
                             $('#response').html("<div class='alert alert-danger'>Для продолжения нужно войти в систему</div>");
                         });
@@ -363,7 +368,7 @@
                         <!-- where main content will appear -->
                         <div id="content">
                         <div class="section-header text-left">
-                            <h2>Логин</h2>
+                        <h2>Логин</h2>
                         </div>
                                 <form id='login_form'>
                                     <div class='form-group'>
@@ -377,6 +382,7 @@
                                     </div>
 
                                     <button type='submit' class='btn btn-primary'>Вход</button>
+                                    <div id='sign_up' class='btn btn-primary'>Регистрация</div>
                                 </form>
                         </div>
                     </div>

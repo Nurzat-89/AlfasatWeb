@@ -57,6 +57,23 @@
             padding: 20px;
             text-align: center;
          }
+         @media (min-width:768px){
+    .login-name{
+        position:relative;
+        max-width:200px; 
+        display:inline;
+        color:#333;
+        margin-right:0px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width:768px){
+   .login-name{
+        display:none;
+    }
+}
       </style>
       <title>
          Alfasat
@@ -73,6 +90,7 @@
       <meta name="twitter:title" content="Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits">
       <meta name="twitter:description" content="Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits">
       <link href="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/theme.scss.css" rel="stylesheet" type="text/css" media="all">
+      <link href="./style/mystyle.css" rel="stylesheet" type="text/css" media="all">
       <script async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/analytics.js.Без названия">
       </script>
       <script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/collector.js.Без названия"></script>
