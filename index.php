@@ -111,7 +111,7 @@
     }
     .snt_login_name{
       position:relative;
-      display:none;
+      display:flex;
       left:230px;
       width:150px;
     }
