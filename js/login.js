@@ -278,7 +278,7 @@
                     $.post("api/validate_token.php", JSON.stringify({ jwt:jwt })).done(function(result) {
                             document.getElementById("SntLoginIcon").style.display="none";  
                             var name = document.getElementById("SntLoginName");
-                            name.style.display="inline";  
+                            name.style.display="flex";  
                             name.innerHTML = result.data.firstname;
                         })
                         .fail(function(result){
