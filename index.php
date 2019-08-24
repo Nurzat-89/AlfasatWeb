@@ -94,6 +94,7 @@
       <script async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/analytics.js.Без названия">
       </script>
       <script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/collector.js.Без названия"></script>
+      <script type="text/javascript" async="" src="./js/login.js"></script>
       <script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/pixel.js.Без названия"></script>
       <script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/olark.js.Без названия"></script>
       <script type="text/javascript" async="" src="./Shop Because Learning Classroom Launch Packs &amp; Individual Starter Kits_files/trekkie.storefront.min.js.Без названия"></script>
@@ -369,7 +370,7 @@
          }
          else
          {
-            include('aboutus.php');	
+            include('main.php');	
          };
       ?>	
       <?php include('footer.php');?>
