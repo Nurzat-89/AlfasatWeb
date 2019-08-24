@@ -85,7 +85,7 @@
                      <div id="SntLoginName" style="display:none;">
                         <div class="snt_login_name">
                                  <div class="log-in"></div> 
-                                 <div class="login-name" style="margin-left:10px;">Nurzat</div>                               
+                                 <div id="username_login" class="login-name" style="margin-left:10px;">Nurzat</div>                               
                         </div>
                      </div>
                      <button type="button" class="btn--link site-header__menu js-mobile-nav-toggle mobile-nav--open">

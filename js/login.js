@@ -279,7 +279,7 @@
                             document.getElementById("SntLoginIcon").style.display="none";  
                             var name = document.getElementById("SntLoginName");
                             name.style.display="flex";  
-                            name.innerHTML = result.data.firstname;
+                            document.getElementById("username_login").innerHTML=result.data.firstname;
                         })
                         .fail(function(result){
                             document.getElementById("SntLoginIcon").style.display="flex";                             
