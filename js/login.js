@@ -4,6 +4,16 @@
 
                 checkLoginState();
                 // show sign up / registration form
+                
+                $(document).on('click', '#SntLoginName', function(){
+                    var doc=document.getElementById("login_mini_cont");
+                    if(doc.style.display==="block"){
+                        doc.style.display="none";
+                    }
+                    else{
+                        doc.style.display="block";
+                    }
+                });
                 $(document).on('click', '#sign_up', function(){
             
                     var html = `

@@ -15,6 +15,49 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
       <style>
+         .login-mini-container{
+            background-color:#fff;
+            width:250px;
+            height:165px;
+            right:0px;
+            top:80px;
+            position:absolute;
+            z-index:100;
+            border-radius: 5px;
+            border-color: #0ad5d6;
+            border-style: solid;
+            border-width: 1px;
+         }
+         .login-mini-line{
+            margin-top:5px;
+            margin-bottom:5px;
+            margin:0;
+            border-color: #0ad5d6;
+         }
+         .login-setting{
+            width:30px;
+            height:30px;
+            margin: 5px 0 5px 10px ;
+         }
+         .login-mini-text{
+            text-decoration:none;
+            margin: auto 10px;
+            text-align:vertical;
+            color:#555;
+            font-size:13px;
+         }
+         .mini-user-photo{
+            width:80px;
+            height:80px;
+            border-radius: 50%;     
+            margin-right: 0;
+            padding:5px;
+            display:flex;
+         }
+         .login-mini-line-container{
+            display:flex;
+            
+         }
          /* Make the image fully responsive */
          .carousel-inner img {
             width: 100%;

@@ -82,7 +82,8 @@
                               <div class="log-in"></div>                              
                         </div>                         
                      </a>
-                     <div id="SntLoginName" class="login-name" style="display:none;"> </div>
+                     <div id="SntLoginName" class="login-name" style="display:none;"></div>
+                    
                      <button type="button" class="btn--link site-header__menu js-mobile-nav-toggle mobile-nav--open">
                         <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-hamburger" viewBox="0 0 37 40">
                            <path d="M33.5 25h-30c-1.1 0-2-.9-2-2s.9-2 2-2h30c1.1 0 2 .9 2 2s-.9 2-2 2zm0-11.5h-30c-1.1 0-2-.9-2-2s.9-2 2-2h30c1.1 0 2 .9 2 2s-.9 2-2 2zm0 23h-30c-1.1 0-2-.9-2-2s.9-2 2-2h30c1.1 0 2 .9 2 2s-.9 2-2 2z"></path>
@@ -91,7 +92,22 @@
                            <path d="M21.3 23l11-11c.8-.8.8-2 0-2.8-.8-.8-2-.8-2.8 0l-11 11-11-11c-.8-.8-2-.8-2.8 0-.8.8-.8 2 0 2.8l11 11-11 11c-.8.8-.8 2 0 2.8.4.4.9.6 1.4.6s1-.2 1.4-.6l11-11 11 11c.4.4.9.6 1.4.6s1-.2 1.4-.6c.8-.8.8-2 0-2.8l-11-11z"></path>
                         </svg>
                         <span class="icon__fallback-text">expand/collapse</span>
+                        
                      </button>
+                  </div>
+                  <div id="login_mini_cont" class="login-mini-container" style="display:none;">
+                     <img class="mini-user-photo" src="./images/alex.jpg" alt="Avatar">
+                     <hr class="login-mini-line">
+                     <div class="login-mini-line-container">
+                        <img class="login-setting" src="./images/icons-gear-50.png">
+                        <a class="login-mini-text" href="#">Настройки</a>
+                     </div>
+                     <hr class="login-mini-line">
+                     <div class="login-mini-line-container">
+                        <img class="login-setting" src="./images/icons-sign-out.png">
+                        <a class="login-mini-text" href="#">Выход</a>
+                     </div>
+                     
                   </div>
                </div>
             </div>
