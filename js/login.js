@@ -181,6 +181,13 @@
                     $('#response').html("<div class='alert alert-info'>Вы вышли из системы</div>");
                 });
             
+                $(document).on('click', '#logout1', function(){
+                    showLoginPage();
+                    document.getElementById("SntLoginIcon").style.display="flex";                             
+                    document.getElementById("SntLoginName").style.display="none"; 
+                    $('#response').html("<div class='alert alert-info'>Вы вышли из системы</div>");
+                });
+            
                 // remove any prompt messages
                 function clearResponse(){
                     $('#response').html('');

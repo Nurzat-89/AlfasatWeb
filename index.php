@@ -105,9 +105,15 @@
         position:relative;
         max-width:200px; 
         display:inline;
-        color:#333;
-        margin-right:0px;
+        color:#0ad5d6;
+        margin:auto 0;
         text-align: center;
+    }
+    .snt_login_name{
+      position:relative;
+      display:none;
+      left:230px;
+      width:150px;
     }
 
 }

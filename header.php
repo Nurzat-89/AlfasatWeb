@@ -82,7 +82,10 @@
                               <div class="log-in"></div>                              
                         </div>                         
                      </a>
-                     <div id="SntLoginName" class="login-name" style="display:none;"></div>
+                     <div id="SntLoginName" class="snt_login_name">
+                              <div class="log-in"></div> 
+                              <div class="login-name" style="margin-left:10px;">Nurzat</div>                               
+                     </div>
                     
                      <button type="button" class="btn--link site-header__menu js-mobile-nav-toggle mobile-nav--open">
                         <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-hamburger" viewBox="0 0 37 40">
@@ -105,7 +108,7 @@
                      <hr class="login-mini-line">
                      <div class="login-mini-line-container">
                         <img class="login-setting" src="./images/icons-sign-out.png">
-                        <a class="login-mini-text" href="#">Выход</a>
+                        <a id="logout1" class="login-mini-text" href="/index.php?page=login">Выход</a>
                      </div>
                      
                   </div>
